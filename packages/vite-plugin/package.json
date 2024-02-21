@@ -13,10 +13,11 @@
     "vite plugin"
   ],
   "exports": {
-    ".": "./types.d.ts"
+    ".": "./lib/index.js",
+    "./types": "./types.d.ts"
   },
-  "main": "lib/index.js",
-  "types": "lib/types/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
   "publishConfig": {
     "access": "public"
   },

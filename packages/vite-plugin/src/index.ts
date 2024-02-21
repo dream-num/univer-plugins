@@ -76,29 +76,29 @@ export function univerPlugin(pluginOptions?: UniverPluginOptions) {
               }
             }
           }
-
-          Array.from(en_US).forEach((key, index) => {
-            if (index === 0) {
-              exportStatement += `export const en_US = {`
-            }
-            exportStatement += `...${key},\n`
-
-            if (index === en_US.size - 1) {
-              exportStatement += `};\n`
-            }
-          })
-
-          Array.from(zh_CN).forEach((key, index) => {
-            if (index === 0) {
-              exportStatement += `export const zh_CN = {`
-            }
-            exportStatement += `...${key},\n`
-
-            if (index === zh_CN.size - 1) {
-              exportStatement += `};\n`
-            }
-          })
         }
+
+        Array.from(en_US).forEach((key, index) => {
+          if (index === 0) {
+            exportStatement += `export const en_US = {`
+          }
+          exportStatement += `...${key},\n`
+
+          if (index === en_US.size - 1) {
+            exportStatement += `};\n`
+          }
+        })
+
+        Array.from(zh_CN).forEach((key, index) => {
+          if (index === 0) {
+            exportStatement += `export const zh_CN = {`
+          }
+          exportStatement += `...${key},\n`
+
+          if (index === zh_CN.size - 1) {
+            exportStatement += `};\n`
+          }
+        })
 
         return importStatement + exportStatement
       }

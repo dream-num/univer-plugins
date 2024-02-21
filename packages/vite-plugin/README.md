@@ -60,7 +60,7 @@ In order for TypeScript to recognize the `univer:locales` import, you should add
 
 ```diff
 /// <reference types="vite/client" />
-+ /// <reference types="@univerjs/vite-plugin" />
++ /// <reference types="@univerjs/vite-plugin/types" />
 ```
 
 ## Options
