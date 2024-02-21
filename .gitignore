@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+pids
+logs
+*.pid
+*.log
+
+# TypeScript
+dist/
+lib/
+*.tsbuildinfo
+
+.settings/
+
+# OS generated files
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test
+coverage

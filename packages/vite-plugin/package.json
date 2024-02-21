@@ -1,0 +1,35 @@
+{
+  "name": "@univerjs/vite-plugin",
+  "type": "commonjs",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Vite plugin for easily integrating Univer",
+  "author": "DreamNum <developer@univer.ai>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "univer",
+    "univerjs",
+    "vite",
+    "vite plugin"
+  ],
+  "exports": {
+    ".": "./types.d.ts"
+  },
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}
