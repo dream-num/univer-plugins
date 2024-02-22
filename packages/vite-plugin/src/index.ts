@@ -1,19 +1,9 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { generateRandomString } from '@univerjs/plugin-core'
 
 interface UniverPluginOptions {
   css?: boolean
-}
-
-function generateRandomString(length?: number) {
-  const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  let result = ''
-
-  for (let i = 0; i < length ?? 8; i++) {
-    result += characters.charAt(Math.floor(Math.random() * characters.length))
-  }
-
-  return result
 }
 
 export function univerPlugin(pluginOptions?: UniverPluginOptions) {

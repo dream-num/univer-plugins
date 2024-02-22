@@ -1,0 +1,25 @@
+{
+  "name": "@univerjs/plugin-core",
+  "type": "commonjs",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Core library for Univer plugins",
+  "author": "DreamNum <developer@univer.ai>",
+  "license": "Apache-2.0",
+  "main": "./src/index.ts",
+  "files": [
+    "lib",
+    "types.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}

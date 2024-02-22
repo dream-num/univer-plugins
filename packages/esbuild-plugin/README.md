@@ -1,23 +1,22 @@
-# @univerjs/vite-plugin
+# @univerjs/esbuild-plugin
 
 ## Installation
 
 ```bash
-npm install @univerjs/vite-plugin
+npm install @univerjs/esbuild-plugin
 ```
 
 ## Usage
 
-Add the plugin to your `vite.config.ts`:
+If you are using the `esbuild` API, you can add the plugin to your build configuration:
 
 ```typescript
-import { defineConfig } from 'vite'
-import { univerPlugin } from '@univerjs/vite-plugin'
+import esbuild from 'esbuild'
 
-export default defineConfig({
+esbuild.build({
   plugins: [
     univerPlugin()
-  ]
+  ],
 })
 ```
 
@@ -28,12 +27,12 @@ export default defineConfig({
 This feature is enabled by default. You can disable it by passing `css: false` to the plugin options.
 
 ```diff
-export default defineConfig({
+esbuild.build({
   plugins: [
     univerPlugin({
-+      css: false
++     css: false
     })
-  ]
+  ],
 })
 ```
 
@@ -56,11 +55,14 @@ new Univer({
 
 ## TypeScript Support
 
-In order for TypeScript to recognize the `univer:locales` import, you should add a reference to the `src/vite-env.d.ts` file in your project.
+In order for TypeScript to recognize the `univer:locales` import, you should add a reference to the `tsconfig.json` file in your project.
 
 ```diff
-/// <reference types="vite/client" />
-+ /// <reference types="@univerjs/vite-plugin/types" />
+{
+  "compilerOptions": {
++    "types": ["@univerjs/esbuild-plugin/types"]
+  }
+}
 ```
 
 ## Options

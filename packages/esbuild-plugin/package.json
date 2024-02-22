@@ -1,16 +1,16 @@
 {
-  "name": "@univerjs/vite-plugin",
+  "name": "@univerjs/esbuild-plugin",
   "type": "commonjs",
   "version": "0.1.1",
   "private": false,
-  "description": "Vite plugin for easily integrating Univer",
+  "description": "Esbuild plugin for easily integrating Univer",
   "author": "DreamNum <developer@univer.ai>",
   "license": "Apache-2.0",
   "keywords": [
     "univer",
     "univerjs",
-    "vite",
-    "vite plugin"
+    "esbuild",
+    "esbuild plugin"
   ],
   "exports": {
     ".": "./lib/index.js",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/node": "^20.11.19",
     "@univerjs/plugin-core": "workspace:*",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4"
+    "esbuild": "^0.20.1",
+    "typescript": "^5.3.3"
   }
 }
