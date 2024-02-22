@@ -1,7 +1,7 @@
 {
   "name": "@univerjs/vite-plugin",
   "type": "commonjs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "description": "Vite plugin for easily integrating Univer",
   "author": "DreamNum <developer@univer.ai>",
@@ -32,8 +32,7 @@
   "scripts": {
     "build": "tsc && node ./esbuild.config.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.11.19",
     "@univerjs/plugin-core": "workspace:*",
