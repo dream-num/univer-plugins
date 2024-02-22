@@ -1,7 +1,7 @@
 {
   "name": "@univerjs/esbuild-plugin",
   "type": "commonjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "description": "Esbuild plugin for easily integrating Univer",
   "author": "DreamNum <developer@univer.ai>",
@@ -30,13 +30,13 @@
     "npm": ">=8.0.0"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && node ./esbuild.config.js"
   },
   "dependencies": {
-    "@univerjs/plugin-core": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
+    "@univerjs/plugin-core": "workspace:*",
     "esbuild": "^0.20.1",
     "typescript": "^5.3.3"
   }

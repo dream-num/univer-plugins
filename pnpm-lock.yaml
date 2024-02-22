@@ -33,14 +33,13 @@ importers:
   packages/core: {}
 
   packages/esbuild-plugin:
-    dependencies:
-      '@univerjs/plugin-core':
-        specifier: workspace:*
-        version: link:../core
     devDependencies:
       '@types/node':
         specifier: ^20.11.19
         version: 20.11.19
+      '@univerjs/plugin-core':
+        specifier: workspace:*
+        version: link:../core
       esbuild:
         specifier: ^0.20.1
         version: 0.20.1
@@ -49,14 +48,16 @@ importers:
         version: 5.3.3
 
   packages/vite-plugin:
-    dependencies:
-      '@univerjs/plugin-core':
-        specifier: workspace:*
-        version: link:../core
     devDependencies:
       '@types/node':
         specifier: ^20.11.19
         version: 20.11.19
+      '@univerjs/plugin-core':
+        specifier: workspace:*
+        version: link:../core
+      esbuild:
+        specifier: ^0.20.1
+        version: 0.20.1
       typescript:
         specifier: ^5.3.3
         version: 5.3.3

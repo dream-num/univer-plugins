@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { generateRandomString } from '@univerjs/plugin-core'
 
-interface UniverPluginOptions {
+export interface UniverPluginOptions {
   css?: boolean
 }
 

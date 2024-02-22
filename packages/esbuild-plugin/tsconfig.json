@@ -12,6 +12,7 @@
     "noUnusedParameters": true,
     "declaration": true,
     "declarationDir": "./lib/types",
+    "emitDeclarationOnly": true,
     "outDir": "./lib",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true

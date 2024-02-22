@@ -1,5 +1,12 @@
 
 
+## [0.2.1](https://github.com/dream-num/univer-plugins/compare/v0.2.0...v0.2.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **bundle:** include missing dependencies ([00217db](https://github.com/dream-num/univer-plugins/commit/00217db312f31668feb84ca1adfaf202bac0d6a7))
+
 # [0.2.0](https://github.com/dream-num/univer-plugins/compare/v0.1.1...v0.2.0) (2024-02-22)
 
 
