@@ -32,9 +32,11 @@
   "scripts": {
     "build": "tsc"
   },
+  "dependencies": {
+    "@univerjs/plugin-core": "workspace:*"
+  },
   "devDependencies": {
     "@types/node": "^20.11.19",
-    "@univerjs/plugin-core": "workspace:*",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
   }
