@@ -1,5 +1,12 @@
 
 
+## [0.2.3](https://github.com/dream-num/univer-plugins/compare/v0.2.2...v0.2.3) (2024-02-22)
+
+
+### Bug Fixes
+
+* **esbuild-plugin:** handle undefined pluginOptions with default object in destructuring assignment ([8d1c0c1](https://github.com/dream-num/univer-plugins/commit/8d1c0c1bf49356ccc0b35beaa29acc733795eb62))
+
 ## [0.2.2](https://github.com/dream-num/univer-plugins/compare/v0.1.1...v0.2.2) (2024-02-22)
 
 
