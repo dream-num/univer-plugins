@@ -19,7 +19,7 @@ export function univerPlugin (pluginOptions?: UniverPluginOptions) {
     name: 'univer-plugin',
 
     setup(build) {
-      build.onResolve({ filter: virtualModuleId }, (args) => {
+      build.onResolve({ filter: new RegExp(virtualModuleId) }, (args) => {
         return {
           path: args.path,
           namespace: virtualModuleNamespace,
