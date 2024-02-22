@@ -1,5 +1,12 @@
 
 
+## [0.2.4](https://github.com/dream-num/univer-plugins/compare/v0.2.3...v0.2.4) (2024-02-22)
+
+
+### Bug Fixes
+
+* **esbuild-plugin:** ensure build.onResolve filter is a RegExp in esbuild configuration ([4014a7d](https://github.com/dream-num/univer-plugins/commit/4014a7dba8ad80e28d8f75bd5ea8371c4f2864f2))
+
 ## [0.2.3](https://github.com/dream-num/univer-plugins/compare/v0.2.2...v0.2.3) (2024-02-22)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@univerjs/esbuild-plugin",
   "type": "commonjs",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": false,
   "description": "Esbuild plugin for easily integrating Univer",
   "author": "DreamNum <developer@univer.ai>",
