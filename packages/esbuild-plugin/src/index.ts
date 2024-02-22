@@ -7,7 +7,7 @@ export interface UniverPluginOptions {
 }
 
 export function univerPlugin (pluginOptions?: UniverPluginOptions) {
-  const { css = true } = pluginOptions;
+  const { css = true } = pluginOptions ?? {};
 
   const importedPackages = new Set();
   const priorityPackages = ['@univerjs/design', '@univerjs/ui']

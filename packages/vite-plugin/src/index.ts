@@ -13,14 +13,14 @@ export function univerPlugin(pluginOptions?: UniverPluginOptions) {
   const priorityPackages = ['@univerjs/design', '@univerjs/ui']
 
   const virtualModuleId = 'univer:locales'
-  const resolvedVirtualModuleId = `\0${virtualModuleId}`
+  const virtualModuleNamespace = `\0${virtualModuleId}`
 
   return {
     name: 'univer-plugin',
 
     resolveId(id) {
       if (id === virtualModuleId) {
-        return resolvedVirtualModuleId
+        return virtualModuleNamespace
       }
     },
 
@@ -28,7 +28,7 @@ export function univerPlugin(pluginOptions?: UniverPluginOptions) {
       /**
        * generate a virtual module that exports all the locales from `@univerjs` and `@univerjs-pro`
        */
-      if (id === resolvedVirtualModuleId) {
+      if (id === virtualModuleNamespace) {
         const scopes = ['@univerjs', '@univerjs-pro']
 
         const en_US = new Set()
