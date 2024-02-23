@@ -2,11 +2,11 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { handleCSS, handleLocales, virtualLocalesModuleId } from '@univerjs/plugin-core'
 
-export interface UniverPluginOptions {
+export interface IUniverPluginOptions {
   css?: boolean
 }
 
-export function univerPlugin(pluginOptions?: UniverPluginOptions) {
+export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
   const { css = true } = pluginOptions ?? {}
 
   return {

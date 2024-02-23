@@ -1,10 +1,10 @@
 import { handleCSS, handleLocales, virtualLocalesModuleId } from '@univerjs/plugin-core'
 
-export interface UniverPluginOptions {
+export interface IUniverPluginOptions {
   css?: boolean
 }
 
-export function univerPlugin(pluginOptions?: UniverPluginOptions) {
+export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
   const { css = true } = pluginOptions ?? {}
 
   const virtualModuleNamespace = `\0${virtualLocalesModuleId}`
