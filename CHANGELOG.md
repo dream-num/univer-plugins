@@ -1,5 +1,13 @@
 
 
+## [0.2.5](https://github.com/dream-num/univer-plugins/compare/v0.2.4...v0.2.5) (2024-02-23)
+
+
+### Bug Fixes
+
+* fix lint ([4b2d3b2](https://github.com/dream-num/univer-plugins/commit/4b2d3b28d0ac396e6c7a0434aa86474e5b994617))
+* rename `UniverPluginOptions` to `IUniverPluginOptions` ([9cd31a0](https://github.com/dream-num/univer-plugins/commit/9cd31a0d9e23a18f9deeb046512578fc7f06fb7c))
+
 ## [0.2.4](https://github.com/dream-num/univer-plugins/compare/v0.2.3...v0.2.4) (2024-02-22)
 
 
