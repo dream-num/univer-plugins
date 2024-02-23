@@ -54,8 +54,40 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+  release-verdaccio:
+    needs: [prepare]
+    if: github.repository == 'dream-num/univer-plugins'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          registry-url: ${{ secrets.VERDACCIO_URL }}
+          scope: '@univerjs'
+
+      - name: 🐙 Publish
+        run: |
+          pnpm install
+          pnpm run build
+          pnpm publish --access public -r --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.VERDACCIO_TOKEN }}
+
   notify:
-    needs: [release-npm]
+    needs: [release-npm, release-verdaccio]
     runs-on: ubuntu-latest
 
     steps:

@@ -1,8 +1,7 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-  ignores: ['**/templates/**/*'],
-}, {
+  typescript: true,
   rules: {
     curly: ['error', 'multi-line'],
     'antfu/if-newline': 'off',
