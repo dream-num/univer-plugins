@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { handleCSS, handleLocales, virtualLocalesModuleId } from '@univerjs/plugin-core'
+import { autoImportCss, exportVirtualLocalesModule, virtualLocalesModuleId } from '@univerjs/plugin-core'
 
 export interface IUniverPluginOptions {
   css?: boolean
@@ -21,7 +21,7 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
       })
 
       build.onLoad({ filter: /.*/, namespace: virtualLocalesModuleId }, async () => {
-        const code = handleLocales()
+        const code = exportVirtualLocalesModule()
 
         return {
           contents: code,
@@ -31,10 +31,10 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
       })
 
       if (css) {
-        build.onLoad({ filter: /\.tsx?$|\.jsx?$/ }, async (args) => {
+        build.onLoad({ filter: /\.tsx?$|\.jsx?|\.vue$/ }, async (args) => {
           const code = await fs.promises.readFile(args.path, 'utf8')
 
-          const cssImports = handleCSS(code)
+          const cssImports = autoImportCss(code)
 
           if (cssImports) {
             return {

@@ -12,6 +12,7 @@
   "scripts": {
     "prepare": "simple-git-hooks",
     "build": "pnpm --filter @univerjs/* build",
+    "test": "pnpm --filter @univerjs/* test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "release-it"

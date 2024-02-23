@@ -7,7 +7,6 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "types": ["node"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,

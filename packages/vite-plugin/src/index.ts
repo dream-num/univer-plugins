@@ -1,4 +1,4 @@
-import { handleCSS, handleLocales, virtualLocalesModuleId } from '@univerjs/plugin-core'
+import { autoImportCss, exportVirtualLocalesModule, virtualLocalesModuleId } from '@univerjs/plugin-core'
 
 export interface IUniverPluginOptions {
   css?: boolean
@@ -23,7 +23,7 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
        * generate a virtual module that exports all the locales from `@univerjs` and `@univerjs-pro`
        */
       if (id === virtualModuleNamespace) {
-        const code = handleLocales()
+        const code = exportVirtualLocalesModule()
 
         return code
       }
@@ -40,9 +40,9 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
        */
       if (css) {
         // check if the current file being processed is a JavaScript or TypeScript file
-        if (!/\.tsx?$|\.jsx?$/.test(id)) return
+        if (!/\.tsx?$|\.jsx?|\.vue$/.test(id)) return
 
-        const cssImports = handleCSS(code)
+        const cssImports = autoImportCss(code)
 
         // extract the CSS import statements from the code
         if (cssImports) {
