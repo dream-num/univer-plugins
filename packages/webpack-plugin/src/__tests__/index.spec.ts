@@ -24,7 +24,6 @@ describe('auto-import-locale', () => {
           },
         ],
       },
-
       optimization: {
         minimize: false,
       },
@@ -35,7 +34,7 @@ describe('auto-import-locale', () => {
       }
       done()
     })
-  }, 30000)
+  }, 15000)
 })
 
 describe('auto-import-css', () => {
