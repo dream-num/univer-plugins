@@ -1,5 +1,4 @@
 import path from 'node:path'
-import fs from 'node:fs'
 import mockFs from 'mock-fs'
 import { webpack } from 'webpack'
 import { UniverPlugin } from '..'
