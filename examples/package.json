@@ -29,7 +29,6 @@
     "@univerjs/esbuild-plugin": "file://../packages/esbuild-plugin",
     "@univerjs/vite-plugin": "file://../packages/vite-plugin",
     "@univerjs/webpack-plugin": "file://../packages/webpack-plugin",
-    "@vitejs/plugin-react": "^4.0.1",
     "css-loader": "^6.10.0",
     "esbuild": "^0.20.1",
     "esbuild-style-plugin": "^1.6.3",
