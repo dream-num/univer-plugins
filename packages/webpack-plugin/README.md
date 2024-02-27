@@ -43,12 +43,12 @@ The plugin provides a virtual module `univer:locales`, which simplifies the impo
 ```typescript
 import { LocaleType } from '@univerjs/core'
 
-import { zh_CN, en_US } from 'univer:locales'
+import { zhCN, enUS } from 'univer:locales'
 
 new Univer({
   locales: {
-    [LocaleType.ZH_CN]: zh_CN,
-    [LocaleType.EN_US]: en_US
+    [LocaleType.ZH_CN]: zhCN,
+    [LocaleType.EN_US]: enUS
   }
 })
 ```
