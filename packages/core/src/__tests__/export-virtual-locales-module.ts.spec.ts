@@ -19,11 +19,11 @@ describe('export-virtual-locales-module', () => {
     const outputCode = exportVirtualLocalesModule()
 
     const expectedStatement = new RegExp(
-      `import { en_US as [a-zA-Z]{10}_US } from '@univerjs/ui';\n`
-      + `import { zh_CN as [a-zA-Z]{10}_CN } from '@univerjs/ui';\n`
-      + `export const en_US = {...[a-zA-Z]{10}_US,\n`
+      `import { enUS as [a-zA-Z]{8}enUS } from '@univerjs/ui';\n`
+      + `import { zhCN as [a-zA-Z]{8}zhCN } from '@univerjs/ui';\n`
+      + `export const enUS = {...[a-zA-Z]{8}enUS,\n`
       + `};\n`
-      + `export const zh_CN = {...[a-zA-Z]{10}_CN,\n`
+      + `export const zhCN = {...[a-zA-Z]{8}zhCN,\n`
       + `};`,
     )
 

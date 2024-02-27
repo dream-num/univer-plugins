@@ -32,7 +32,8 @@ export function exportVirtualLocalesModule() {
           const langPath = path.resolve('node_modules', packageName, 'lib/types/locale', `${lang}.d.ts`)
 
           if (fs.existsSync(langPath)) {
-            const langVar = `${lang.replace('-', '_')}`
+            const langVar = `${lang.replace('-', '')}`
+
             const key = `${generateRandomString(8)}${langVar}`
             importStatement += `import { ${langVar} as ${key} } from '${packageName}';\n`
             languages[lang].add(key)
@@ -43,7 +44,7 @@ export function exportVirtualLocalesModule() {
   }
 
   Object.keys(languages).forEach((lang) => {
-    const langVar = `${lang.replace('-', '_')}`
+    const langVar = `${lang.replace('-', '')}`
 
     if (languages[lang].size > 0) {
       exportStatement += `export const ${langVar} = {`
