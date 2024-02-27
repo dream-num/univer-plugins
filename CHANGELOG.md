@@ -1,5 +1,18 @@
 
 
+# [0.3.0](https://github.com/dream-num/univer-plugins/compare/v0.2.6...v0.3.0) (2024-02-27)
+
+
+### Bug Fixes
+
+* change locale file names and variable names ([#4](https://github.com/dream-num/univer-plugins/issues/4)) ([1ecee3d](https://github.com/dream-num/univer-plugins/commit/1ecee3d16447e499b74fc07204c05f7510f48244))
+* fix variable name ([d86e4a2](https://github.com/dream-num/univer-plugins/commit/d86e4a2e2a1504c1c9355b505b0f5d9863775255))
+
+
+### Features
+
+* webpack plugin ([#3](https://github.com/dream-num/univer-plugins/issues/3)) ([d7e5353](https://github.com/dream-num/univer-plugins/commit/d7e53537d4bb5d8f38a43f50f47e7246f51f5e3f))
+
 ## [0.2.6](https://github.com/dream-num/univer-plugins/compare/v0.2.5...v0.2.6) (2024-02-23)
 
 ## [0.2.5](https://github.com/dream-num/univer-plugins/compare/v0.2.4...v0.2.5) (2024-02-23)
