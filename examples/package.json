@@ -1,0 +1,44 @@
+{
+  "name": "univer-sheets",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev:w": "webpack serve --config webpack.config.cjs",
+    "dev:e": "node ./esbuild.config.mjs",
+    "dev:v": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@univerjs/core": "0.1.0-beta.5",
+    "@univerjs/design": "0.1.0-beta.5",
+    "@univerjs/docs": "0.1.0-beta.5",
+    "@univerjs/docs-ui": "0.1.0-beta.5",
+    "@univerjs/engine-formula": "0.1.0-beta.5",
+    "@univerjs/engine-numfmt": "0.1.0-beta.5",
+    "@univerjs/engine-render": "0.1.0-beta.5",
+    "@univerjs/sheets": "0.1.0-beta.5",
+    "@univerjs/sheets-formula": "0.1.0-beta.5",
+    "@univerjs/sheets-numfmt": "0.1.0-beta.5",
+    "@univerjs/sheets-ui": "0.1.0-beta.5",
+    "@univerjs/ui": "0.1.0-beta.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "@univerjs/esbuild-plugin": "file://../packages/esbuild-plugin",
+    "@univerjs/vite-plugin": "file://../packages/vite-plugin",
+    "@univerjs/webpack-plugin": "file://../packages/webpack-plugin",
+    "css-loader": "^6.10.0",
+    "esbuild": "^0.20.1",
+    "esbuild-style-plugin": "^1.6.3",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
