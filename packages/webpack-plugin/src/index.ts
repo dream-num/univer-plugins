@@ -8,6 +8,8 @@ export interface IUniverPluginOptions {
   css?: boolean
 }
 
+const nodeRequire = require
+
 export class UniverPlugin {
   private name = 'UniverPlugin'
 
@@ -71,7 +73,7 @@ export class UniverPlugin {
           if (module.resource && rule.test(module.resource)) {
             module.loaders.unshift({
               ident: 'add-import-css',
-              loader: require.resolve('./loader'),
+              loader: nodeRequire.resolve('./loader'),
               type: null,
               options: {},
             })
@@ -83,7 +85,7 @@ export class UniverPlugin {
           if (module.resource && rule.test(module.resource)) {
             module.loaders.unshift({
               ident: 'add-import-css',
-              loader: require.resolve('./loader'),
+              loader: nodeRequire.resolve('./loader'),
               type: null,
               options: {},
             })
