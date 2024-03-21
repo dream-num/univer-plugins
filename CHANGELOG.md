@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/dream-num/univer-plugins/compare/v0.3.0...v0.3.1) (2024-03-21)
+
+
+### Features
+
+* extend onLoad filter to include .svelte and .astro files in build process ([c75bce8](https://github.com/dream-num/univer-plugins/commit/c75bce8eac321fc4def7adb98e455ee5e97c81ac))
+
 # [0.3.0](https://github.com/dream-num/univer-plugins/compare/v0.2.6...v0.3.0) (2024-02-27)
 
 
