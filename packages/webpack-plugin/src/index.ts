@@ -66,7 +66,7 @@ export class UniverPlugin {
 
   private autoImportCSS(compiler: Compiler) {
     compiler.hooks.compilation.tap(this.name, (compilation) => {
-      const rule = /\.tsx?$|\.jsx?|\.vue$/
+      const rule = /(\.tsx?$|\.jsx?|\.vue|\.svelte|\.astro)$/
       if (NormalModule) {
         // webpack 5
         NormalModule.getCompilationHooks(compilation).loader.tap(this.name, (_loaderContext, module) => {

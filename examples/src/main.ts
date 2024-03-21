@@ -10,12 +10,12 @@ import { UniverSheetsPlugin } from '@univerjs/sheets'
 import { UniverSheetsFormulaPlugin } from '@univerjs/sheets-formula'
 import { UniverSheetsNumfmtPlugin } from '@univerjs/sheets-numfmt'
 import { UniverSheetsUIPlugin } from '@univerjs/sheets-ui'
+import { UniverSheetsZenEditorPlugin } from '@univerjs/sheets-zen-editor'
 
 import { UniverUIPlugin } from '@univerjs/ui'
 
 import { enUS } from 'univer:locales'
 
-// univer
 const univer = new Univer({
   theme: defaultTheme,
   locale: LocaleType.EN_US,
@@ -25,7 +25,6 @@ const univer = new Univer({
   },
 })
 
-// core plugins
 univer.registerPlugin(UniverDocsPlugin, {
   hasScroll: false,
 })
@@ -40,11 +39,9 @@ univer.registerPlugin(UniverUIPlugin, {
 univer.registerPlugin(UniverSheetsPlugin)
 univer.registerPlugin(UniverSheetsUIPlugin)
 
-// sheet feature plugins
 univer.registerPlugin(UniverSheetsNumfmtPlugin)
 univer.registerPlugin(UniverFormulaEnginePlugin)
 univer.registerPlugin(UniverSheetsFormulaPlugin)
-// univer.registerPlugin(UniverSheetsZenEditorPlugin);
+univer.registerPlugin(UniverSheetsZenEditorPlugin)
 
-// create univer sheet instance
 univer.createUniverSheet({})

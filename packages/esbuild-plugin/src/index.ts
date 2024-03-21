@@ -31,7 +31,7 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
       })
 
       if (css) {
-        build.onLoad({ filter: /\.tsx?$|\.jsx?|\.vue$/ }, async (args) => {
+        build.onLoad({ filter: /(\.tsx?$|\.jsx?|\.vue|\.svelte|\.astro)$/ }, async (args) => {
           const code = await fs.promises.readFile(args.path, 'utf8')
 
           const cssImports = autoImportCss(code)

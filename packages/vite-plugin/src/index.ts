@@ -40,7 +40,7 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
        */
       if (css) {
         // check if the current file being processed is a JavaScript or TypeScript file
-        if (!/\.tsx?$|\.jsx?|\.vue$/.test(id)) return
+        if (!/(\.tsx?$|\.jsx?|\.vue|\.svelte|\.astro)$/.test(id)) return
 
         const cssImports = autoImportCss(code)
 

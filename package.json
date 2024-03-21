@@ -18,13 +18,13 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
+    "@antfu/eslint-config": "^2.8.3",
     "@release-it-plugins/workspaces": "^4.2.0",
     "@release-it/conventional-changelog": "^8.0.1",
     "eslint": "^8.57.0",
     "lint-staged": "^15.2.2",
     "release-it": "^17.1.1",
-    "simple-git-hooks": "^2.9.0"
+    "simple-git-hooks": "^2.11.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
