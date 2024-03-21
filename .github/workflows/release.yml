@@ -75,13 +75,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          registry-url: https://registry.npmjs.org
+
+      - name: Install & build
+        run: |
+          pnpm install
+          pnpm build
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
           registry-url: ${{ secrets.VERDACCIO_URL }}
           scope: '@univerjs'
 
       - name: 🐙 Publish
         run: |
-          pnpm install
-          pnpm run build
           pnpm publish --access public -r --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.VERDACCIO_TOKEN }}
