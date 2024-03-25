@@ -42,8 +42,8 @@ importers:
         specifier: 0.1.3
         version: 0.1.3(@univerjs/core@0.1.3)(@univerjs/engine-render@0.1.3)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/docs-ui':
-        specifier: 0.1.3
-        version: 0.1.3(@univerjs/core@0.1.3)(@univerjs/design@0.1.3)(@univerjs/docs@0.1.3)(@univerjs/engine-render@0.1.3)(@univerjs/ui@0.1.3)(@wendellhu/redi@0.13.0)(react@18.2.0)(rxjs@7.8.1)
+        specifier: 0.1.4
+        version: 0.1.4(@univerjs/core@0.1.3)(@univerjs/design@0.1.3)(@univerjs/docs@0.1.3)(@univerjs/engine-render@0.1.3)(@univerjs/ui@0.1.3)(@wendellhu/redi@0.13.0)(react@18.2.0)(rxjs@7.8.1)
       '@univerjs/engine-formula':
         specifier: 0.1.3
         version: 0.1.3(@univerjs/core@0.1.3)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
@@ -2257,7 +2257,7 @@ packages:
     dependencies:
       '@rc-component/color-picker': 1.5.3(react-dom@18.2.0)(react@18.2.0)
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
-      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.42(react-dom@18.2.0)(react@18.2.0)
       rc-dialog: 9.4.0(react-dom@18.2.0)(react@18.2.0)
       rc-dropdown: 4.2.0(react-dom@18.2.0)(react@18.2.0)
       rc-input: 1.4.5(react-dom@18.2.0)(react@18.2.0)
@@ -2305,15 +2305,15 @@ packages:
       - moment
     dev: false
 
-  /@univerjs/docs-ui@0.1.3(@univerjs/core@0.1.3)(@univerjs/design@0.1.3)(@univerjs/docs@0.1.3)(@univerjs/engine-render@0.1.3)(@univerjs/ui@0.1.3)(@wendellhu/redi@0.13.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-gl/oWAqNwgfrsLtgyFRGPIn3ZLMcomgYNXl7hNR2Mc6r4IWGc18HHwOBwVYY93kAY+DDT+psrbxbEunMlZ9mrg==}
+  /@univerjs/docs-ui@0.1.4(@univerjs/core@0.1.3)(@univerjs/design@0.1.3)(@univerjs/docs@0.1.3)(@univerjs/engine-render@0.1.3)(@univerjs/ui@0.1.3)(@wendellhu/redi@0.13.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-l3cCE1ES2bQg78TBKqR7Ky96ntEAhxJFWxeptQSpzfIJnaJE7AwBSpxYn8u0oLS2cu6RaxCuOL89rOyE6yC5Sg==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.3
-      '@univerjs/design': 0.1.3
-      '@univerjs/docs': 0.1.3
-      '@univerjs/engine-render': 0.1.3
-      '@univerjs/ui': 0.1.3
+      '@univerjs/core': 0.1.4
+      '@univerjs/design': 0.1.4
+      '@univerjs/docs': 0.1.4
+      '@univerjs/engine-render': 0.1.4
+      '@univerjs/ui': 0.1.4
       '@wendellhu/redi': 0.13.0
       react: '>=16.9.0'
       rxjs: '>=7.0.0'
@@ -2402,6 +2402,16 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+
+  /@univerjs/icons@0.1.42(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-fHJKMGXGKK6W0E7xguXtHTTwR2P679sMMjh8JMHHobZzBCKoUuN3UBDRa8TJRyLWiY26jbe5xtJOhRD2sQyXKg==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: true
 
   /@univerjs/protocol@0.1.0(@grpc/grpc-js@1.10.3)(rxjs@7.8.1):
     resolution: {integrity: sha512-tta0qKO39tR+TkfYXGecmKvihCYS55Jc2YAX176IDsFGQxWUzsqx9Y+ait+qDflSJALj6ocoNf7g81xUfz6DNA==}
@@ -10031,12 +10041,14 @@ packages:
   file:packages/esbuild-plugin:
     resolution: {directory: packages/esbuild-plugin, type: directory}
     name: '@univerjs/esbuild-plugin'
+    version: 0.3.2
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     dev: true
 
   file:packages/vite-plugin:
     resolution: {directory: packages/vite-plugin, type: directory}
     name: '@univerjs/vite-plugin'
+    version: 0.3.2
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     dev: true
 
@@ -10044,6 +10056,7 @@ packages:
     resolution: {directory: packages/webpack-plugin, type: directory}
     id: file:packages/webpack-plugin
     name: '@univerjs/webpack-plugin'
+    version: 0.3.2
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
