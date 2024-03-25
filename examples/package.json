@@ -25,7 +25,7 @@
     "@univerjs/ui": "0.1.3"
   },
   "devDependencies": {
-    "@types/react": "^18.2.67",
+    "@types/react": "^18.2.70",
     "@types/react-dom": "^18.2.22",
     "@univerjs/esbuild-plugin": "file:../packages/esbuild-plugin",
     "@univerjs/vite-plugin": "file:../packages/vite-plugin",
