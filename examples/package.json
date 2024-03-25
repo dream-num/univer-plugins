@@ -15,7 +15,7 @@
     "@univerjs/docs": "0.1.3",
     "@univerjs/docs-ui": "0.1.3",
     "@univerjs/engine-formula": "0.1.3",
-    "@univerjs/engine-numfmt": "0.1.3",
+    "@univerjs/engine-numfmt": "0.1.4",
     "@univerjs/engine-render": "0.1.3",
     "@univerjs/sheets": "0.1.3",
     "@univerjs/sheets-formula": "0.1.3",
