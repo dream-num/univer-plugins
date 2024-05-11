@@ -17,7 +17,7 @@ export function exportVirtualLocalesModule() {
     return acc
   }, {})
 
-  let importStatement = ''
+  let importStatement = `import { Tools as _Tools } from '@univerjs/core';\n`
   let exportStatement = ''
 
   for (const scope of scopes) {
@@ -47,13 +47,13 @@ export function exportVirtualLocalesModule() {
     const langVar = `${lang.replace('-', '')}`
 
     if (languages[lang].size > 0) {
-      exportStatement += `export const ${langVar} = {`
+      exportStatement += `export const ${langVar} = _Tools.deepMerge(`
 
       languages[lang].forEach((key) => {
-        exportStatement += `...${key},\n`
+        exportStatement += `${key},\n`
       })
 
-      exportStatement += `};\n`
+      exportStatement += `);\n`
     }
   })
 

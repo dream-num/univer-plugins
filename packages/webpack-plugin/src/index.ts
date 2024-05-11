@@ -33,6 +33,9 @@ export class UniverPlugin {
         NormalModule.getCompilationHooks(compilation).readResourceForScheme
           .for(virtualLocalesModuleId.split(':')[0]).tap(this.name, (path) => {
             if (path === virtualLocalesModuleId) {
+              if (typeof compiler.options.target === 'string' && compiler.options.target.startsWith('node')) {
+                return ''
+              }
               return exportVirtualLocalesModule()
             } else {
               return path
