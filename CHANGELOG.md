@@ -1,5 +1,12 @@
 
 
+## [0.3.3](https://github.com/dream-num/univer-plugins/compare/v0.3.2...v0.3.3) (2024-05-11)
+
+
+### Bug Fixes
+
+* **webpack:** add environment check to skip plugin execution in Node.js for Next.js compatibility ([a6e305d](https://github.com/dream-num/univer-plugins/commit/a6e305d30f734a3143b1b2a2d46cdf10ff298393))
+
 ## [0.3.2](https://github.com/dream-num/univer-plugins/compare/v0.3.1...v0.3.2) (2024-03-21)
 
 ## [0.3.1](https://github.com/dream-num/univer-plugins/compare/v0.3.0...v0.3.1) (2024-03-21)
