@@ -15,7 +15,7 @@ import { UniverPlugin } from '@univerjs/webpack-plugin'
 
 export default {
   plugins: [
-+    new UniverPlugin()
+    +new UniverPlugin()
   ]
 }
 ```
@@ -43,12 +43,13 @@ The plugin provides a virtual module `univer:locales`, which simplifies the impo
 ```typescript
 import { LocaleType } from '@univerjs/core'
 
-import { zhCN, enUS } from 'univer:locales'
+import { enUS, ruRU, zhCN } from 'univer:locales'
 
 new Univer({
   locales: {
     [LocaleType.ZH_CN]: zhCN,
-    [LocaleType.EN_US]: enUS
+    [LocaleType.EN_US]: enUS,
+    [LocaleType.RU_RU]: ruRU
   }
 })
 ```

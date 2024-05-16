@@ -7,6 +7,7 @@ describe('export-virtual-locales-module', () => {
     mockFs({
       'node_modules/@univerjs/ui/lib/types/locale/en-US.d.ts': '/* en-US locale */',
       'node_modules/@univerjs/ui/lib/types/locale/zh-CN.d.ts': '/* zh-CN locale */',
+      'node_modules/@univerjs/ui/lib/types/locale/ru-RU.d.ts': '/* ru-RU locale */',
       'node_modules/@univerjs/design/lib/index.css': '/* univerjs design css */',
     })
   })
@@ -18,15 +19,13 @@ describe('export-virtual-locales-module', () => {
   it('should generate export statements for locales', () => {
     const outputCode = exportVirtualLocalesModule()
 
-    const expectedStatement = new RegExp(
-      `import { enUS as [a-zA-Z]{8}enUS } from '@univerjs/ui';\n`
-      + `import { zhCN as [a-zA-Z]{8}zhCN } from '@univerjs/ui';\n`
-      + `export const enUS = {...[a-zA-Z]{8}enUS,\n`
-      + `};\n`
-      + `export const zhCN = {...[a-zA-Z]{8}zhCN,\n`
-      + `};`,
-    )
+    expect(outputCode).toMatch(/import { Tools as _Tools } from '@univerjs\/core';/)
+    expect(outputCode).toMatch(/import { enUS as [a-zA-Z]{8}enUS } from '@univerjs\/ui';/)
+    expect(outputCode).toMatch(/import { ruRU as [a-zA-Z]{8}ruRU } from '@univerjs\/ui';/)
+    expect(outputCode).toMatch(/import { zhCN as [a-zA-Z]{8}zhCN } from '@univerjs\/ui';/)
 
-    expect(expectedStatement.test(outputCode)).toBe(true)
+    expect(outputCode).toMatch(/export const enUS = _Tools.deepMerge\([a-zA-Z]{8}enUS,\n\);/)
+    expect(outputCode).toMatch(/export const ruRU = _Tools.deepMerge\([a-zA-Z]{8}ruRU,\n\);/)
+    expect(outputCode).toMatch(/export const zhCN = _Tools.deepMerge\([a-zA-Z]{8}zhCN,\n\);/)
   })
 })
