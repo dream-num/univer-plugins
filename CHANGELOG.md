@@ -1,5 +1,12 @@
 
 
+## [0.3.5](https://github.com/dream-num/univer-plugins/compare/v0.3.4...v0.3.5) (2024-05-16)
+
+
+### Bug Fixes
+
+* fix test case ([8e4b4a1](https://github.com/dream-num/univer-plugins/commit/8e4b4a1a11b43807175ac62f335c68d19c1d488e))
+
 ## [0.3.4](https://github.com/dream-num/univer-plugins/compare/v0.3.3...v0.3.4) (2024-05-16)
 
 
