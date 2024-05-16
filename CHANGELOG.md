@@ -1,5 +1,12 @@
 
 
+## [0.3.4](https://github.com/dream-num/univer-plugins/compare/v0.3.3...v0.3.4) (2024-05-16)
+
+
+### Features
+
+* add Russian (ruRU) locale support ([cfdf09d](https://github.com/dream-num/univer-plugins/commit/cfdf09d9420963b8fb876d5b4fe28eac19283111))
+
 ## [0.3.3](https://github.com/dream-num/univer-plugins/compare/v0.3.2...v0.3.3) (2024-05-11)
 
 
