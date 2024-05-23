@@ -20,9 +20,9 @@ describe('export-virtual-locales-module', () => {
     const outputCode = exportVirtualLocalesModule()
 
     expect(outputCode).toMatch(/import { Tools as _Tools } from '@univerjs\/core';/)
-    expect(outputCode).toMatch(/import { enUS as [a-zA-Z]{8}enUS } from '@univerjs\/ui';/)
-    expect(outputCode).toMatch(/import { ruRU as [a-zA-Z]{8}ruRU } from '@univerjs\/ui';/)
-    expect(outputCode).toMatch(/import { zhCN as [a-zA-Z]{8}zhCN } from '@univerjs\/ui';/)
+    expect(outputCode).toMatch(/import [a-zA-Z]{8}enUS from '@univerjs\/ui\/locale\/en-US';/)
+    expect(outputCode).toMatch(/import [a-zA-Z]{8}ruRU from '@univerjs\/ui\/locale\/ru-RU';/)
+    expect(outputCode).toMatch(/import [a-zA-Z]{8}zhCN from '@univerjs\/ui\/locale\/zh-CN';/)
 
     expect(outputCode).toMatch(/export const enUS = _Tools.deepMerge\([a-zA-Z]{8}enUS,\n\);/)
     expect(outputCode).toMatch(/export const ruRU = _Tools.deepMerge\([a-zA-Z]{8}ruRU,\n\);/)
