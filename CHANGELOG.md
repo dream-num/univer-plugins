@@ -1,5 +1,12 @@
 
 
+# [0.4.0](https://github.com/dream-num/univer-plugins/compare/v0.3.5...v0.4.0) (2024-06-03)
+
+
+### Features
+
+* ensure compatibility with Univer version 0.1.13 and above ([b24a561](https://github.com/dream-num/univer-plugins/commit/b24a561a37fa3013b766e03636c77d3ec4719755))
+
 ## [0.3.5](https://github.com/dream-num/univer-plugins/compare/v0.3.4...v0.3.5) (2024-05-16)
 
 
