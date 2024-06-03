@@ -1,5 +1,12 @@
 
 
+## [0.4.1](https://github.com/dream-num/univer-plugins/compare/v0.4.0...v0.4.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* resolve issue with applying styles to Vue SFCs ([c21b0f7](https://github.com/dream-num/univer-plugins/commit/c21b0f7b0cfed80625d0f8aef3d173266e1c0512))
+
 # [0.4.0](https://github.com/dream-num/univer-plugins/compare/v0.3.5...v0.4.0) (2024-06-03)
 
 
