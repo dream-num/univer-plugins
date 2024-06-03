@@ -43,9 +43,20 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
         if (!/(\.tsx?$|\.jsx?|\.vue|\.svelte|\.astro)$/.test(id)) return
 
         const cssImports = autoImportCss(code)
+        if (!cssImports) return
 
         // extract the CSS import statements from the code
-        if (cssImports) {
+        if (/\.vue$/.test(id)) {
+          const scriptRegex = /<script([^>]*)>/
+          const match = code.match(scriptRegex)
+          const scriptTag = match[0]
+          const newScriptTag = scriptTag.replace(/>$/, `>\n${cssImports}`)
+
+          return {
+            code: code.replace(scriptRegex, newScriptTag),
+            map: null,
+          }
+        } else {
           return {
             code: cssImports + code,
             map: null,
