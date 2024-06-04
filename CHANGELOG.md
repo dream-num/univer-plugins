@@ -1,5 +1,12 @@
 
 
+## [0.4.3](https://github.com/dream-num/univer-plugins/compare/v0.4.2...v0.4.3) (2024-06-04)
+
+
+### Bug Fixes
+
+* fix issues when inject CSS imports in Vue SFCs ([6a9eddd](https://github.com/dream-num/univer-plugins/commit/6a9eddd38d727e89f330c7bd4e972f347cc69eac))
+
 ## [0.4.2](https://github.com/dream-num/univer-plugins/compare/v0.4.1...v0.4.2) (2024-06-04)
 
 
