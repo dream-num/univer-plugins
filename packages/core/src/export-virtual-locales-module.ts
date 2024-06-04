@@ -35,7 +35,7 @@ export function exportVirtualLocalesModule() {
             const langVar = `${lang.replace('-', '')}`
 
             const key = `${generateRandomString(8)}${langVar}`
-            importStatement += `import ${key} from '${packageName}/locale/${lang}';\n`
+            importStatement += `import ${key} from '${packageName}/lib/locale/${lang}';\n`
             languages[lang].add(key)
           }
         })
