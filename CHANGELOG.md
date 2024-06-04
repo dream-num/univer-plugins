@@ -1,5 +1,12 @@
 
 
+## [0.4.2](https://github.com/dream-num/univer-plugins/compare/v0.4.1...v0.4.2) (2024-06-04)
+
+
+### Bug Fixes
+
+* **webpack4:** fix import statement for locale files ([d9ef06f](https://github.com/dream-num/univer-plugins/commit/d9ef06f54c283de8298a9f92c1da1b85b9cee140))
+
 ## [0.4.1](https://github.com/dream-num/univer-plugins/compare/v0.4.0...v0.4.1) (2024-06-03)
 
 
