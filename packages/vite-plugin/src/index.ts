@@ -49,6 +49,13 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
         if (/\.vue$/.test(id)) {
           const scriptRegex = /<script([^>]*)>/
           const match = code.match(scriptRegex)
+          if (!match) {
+            return {
+              code: cssImports + code,
+              map: null,
+            }
+          }
+
           const scriptTag = match[0]
           const newScriptTag = scriptTag.replace(/>$/, `>\n${cssImports}`)
 

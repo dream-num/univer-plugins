@@ -36,7 +36,26 @@ export function univerPlugin(pluginOptions?: IUniverPluginOptions) {
 
           const cssImports = autoImportCss(code)
 
-          if (cssImports) {
+          if (!cssImports) return
+
+          if (/\.vue$/.test(args.path)) {
+            const scriptRegex = /<script([^>]*)>/
+            const match = code.match(scriptRegex)
+            if (!match) {
+              return {
+                contents: cssImports + code,
+                loader: 'tsx',
+              }
+            }
+
+            const scriptTag = match[0]
+            const newScriptTag = scriptTag.replace(/>$/, `>\n${cssImports}`)
+
+            return {
+              contents: code.replace(scriptRegex, newScriptTag),
+              loader: 'tsx',
+            }
+          } else {
             return {
               contents: cssImports + code,
               loader: 'tsx',
