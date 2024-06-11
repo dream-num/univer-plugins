@@ -12,6 +12,7 @@ If you are using the `esbuild` API, you can add the plugin to your build configu
 
 ```typescript
 import esbuild from 'esbuild'
+import { UniverPlugin } from '@univerjs/esbuild-plugin'
 
 esbuild.build({
   plugins: [
