@@ -73,7 +73,7 @@ export class UniverPlugin {
       if (NormalModule) {
         // webpack 5
         NormalModule.getCompilationHooks(compilation).loader.tap(this.name, (_loaderContext, module) => {
-          if (module.resource && rule.test(module.resource)) {
+          if (module.resource && rule.test(module.resource) && !module.resource.includes('node_modules')) {
             module.loaders.unshift({
               ident: 'add-import-css',
               loader: nodeRequire.resolve('./loader'),
@@ -85,7 +85,7 @@ export class UniverPlugin {
       } else {
         // webpack 4
         compilation.hooks.normalModuleLoader.tap(this.name, (_loaderContext, module) => {
-          if (module.resource && rule.test(module.resource)) {
+          if (module.resource && rule.test(module.resource) && !module.resource.includes('node_modules')) {
             module.loaders.unshift({
               ident: 'add-import-css',
               loader: nodeRequire.resolve('./loader'),

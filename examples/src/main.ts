@@ -1,6 +1,6 @@
 import './style.css'
 
-import { LocaleType, LogLevel, Univer } from '@univerjs/core'
+import { LocaleType, LogLevel, Univer, UniverInstanceType } from '@univerjs/core'
 import { defaultTheme } from '@univerjs/design'
 import { UniverDocsPlugin } from '@univerjs/docs'
 import { UniverDocsUIPlugin } from '@univerjs/docs-ui'
@@ -32,8 +32,6 @@ univer.registerPlugin(UniverDocsUIPlugin)
 univer.registerPlugin(UniverRenderEnginePlugin)
 univer.registerPlugin(UniverUIPlugin, {
   container: 'app',
-  header: true,
-  footer: true,
 })
 univer.registerPlugin(UniverSheetsPlugin)
 univer.registerPlugin(UniverSheetsUIPlugin)
@@ -43,4 +41,4 @@ univer.registerPlugin(UniverFormulaEnginePlugin)
 univer.registerPlugin(UniverSheetsFormulaPlugin)
 univer.registerPlugin(UniverSheetsZenEditorPlugin)
 
-univer.createUniverSheet({})
+univer.createUnit(UniverInstanceType.UNIVER_SHEET, {})

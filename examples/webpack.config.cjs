@@ -29,7 +29,7 @@ module.exports = {
 
   // Resolve file extensions
   resolve: {
-    extensions: ['.ts', '.tsx', '.js'],
+    extensions: ['.ts', '.tsx', '.js', '.json'],
   },
 
   // Loaders and rules to handle different file types

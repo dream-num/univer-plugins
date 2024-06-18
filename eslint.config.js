@@ -2,6 +2,7 @@ import antfu from '@antfu/eslint-config'
 
 export default antfu({
   typescript: true,
+  regexp: false,
   rules: {
     curly: ['error', 'multi-line'],
     'antfu/if-newline': 'off',
