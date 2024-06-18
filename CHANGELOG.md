@@ -1,5 +1,12 @@
 
 
+## [0.4.4](https://github.com/dream-num/univer-plugins/compare/v0.4.3...v0.4.4) (2024-06-18)
+
+
+### Bug Fixes
+
+* **webpack:** exclude node_modules path in rule evaluation conditions ([bf06b43](https://github.com/dream-num/univer-plugins/commit/bf06b4398a11a8b70eab27b8c6ff9507958f7a58))
+
 ## [0.4.3](https://github.com/dream-num/univer-plugins/compare/v0.4.2...v0.4.3) (2024-06-04)
 
 
