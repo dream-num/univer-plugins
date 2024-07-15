@@ -1,5 +1,12 @@
 
 
+# [0.5.0](https://github.com/dream-num/univer-plugins/compare/v0.4.4...v0.5.0) (2024-07-15)
+
+
+### Features
+
+* support `zh-TW` & `vi-VN` ([d1084af](https://github.com/dream-num/univer-plugins/commit/d1084af72bec0a65c16c8a77432a11dd6fab9afd))
+
 ## [0.4.4](https://github.com/dream-num/univer-plugins/compare/v0.4.3...v0.4.4) (2024-06-18)
 
 
