@@ -1,6 +1,6 @@
+import { univerPlugin } from '@univerjs/esbuild-plugin'
 import esbuild from 'esbuild'
 import stylePlugin from 'esbuild-style-plugin'
-import { univerPlugin } from '@univerjs/esbuild-plugin'
 
 const ctx = await esbuild.context({
   bundle: true,
@@ -20,5 +20,4 @@ await ctx.serve({
   port: 3010,
 })
 
-// eslint-disable-next-line no-console
 console.log(`Local server: http://localhost:3010`)

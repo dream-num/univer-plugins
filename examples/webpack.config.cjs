@@ -1,6 +1,6 @@
 const path = require('node:path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { UniverPlugin } = require('@univerjs/webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 // You'll need to find a webpack plugin equivalent for univerPlugin or adapt it if it's already compatible.
 // const UniverWebpackPlugin = require('@univerjs/webpack-plugin');
 

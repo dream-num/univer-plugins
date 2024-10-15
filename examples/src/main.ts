@@ -1,6 +1,5 @@
-import './style.css'
-
 import { LocaleType, LogLevel, Univer, UniverInstanceType } from '@univerjs/core'
+
 import { defaultTheme } from '@univerjs/design'
 import { UniverDocsPlugin } from '@univerjs/docs'
 import { UniverDocsUIPlugin } from '@univerjs/docs-ui'
@@ -11,10 +10,11 @@ import { UniverSheetsFormulaPlugin } from '@univerjs/sheets-formula'
 import { UniverSheetsNumfmtPlugin } from '@univerjs/sheets-numfmt'
 import { UniverSheetsUIPlugin } from '@univerjs/sheets-ui'
 import { UniverSheetsZenEditorPlugin } from '@univerjs/sheets-zen-editor'
-
 import { UniverUIPlugin } from '@univerjs/ui'
 
 import { enUS } from 'univer:locales'
+
+import './style.css'
 
 const univer = new Univer({
   theme: defaultTheme,

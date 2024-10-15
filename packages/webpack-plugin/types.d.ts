@@ -4,4 +4,5 @@ declare module 'univer:locales' {
   export const ruRU: { [key: string]: string }
   export const viVN: { [key: string]: string }
   export const zhTW: { [key: string]: string }
+  export const faIR: { [key: string]: string }
 }

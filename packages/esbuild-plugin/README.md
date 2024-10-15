@@ -11,8 +11,8 @@ npm install @univerjs/esbuild-plugin
 If you are using the `esbuild` API, you can add the plugin to your build configuration:
 
 ```typescript
-import esbuild from 'esbuild'
 import { UniverPlugin } from '@univerjs/esbuild-plugin'
+import esbuild from 'esbuild'
 
 esbuild.build({
   plugins: [
@@ -44,7 +44,7 @@ The plugin provides a virtual module `univer:locales`, which simplifies the impo
 ```typescript
 import { LocaleType } from '@univerjs/core'
 
-import { enUS, ruRU, viVN, zhCN, zhTW } from 'univer:locales'
+import { enUS, faIR, ruRU, viVN, zhCN, zhTW } from 'univer:locales'
 
 new Univer({
   locales: {
@@ -53,6 +53,7 @@ new Univer({
     [LocaleType.RU_RU]: ruRU,
     [LocaleType.VI_VN]: viVN,
     [LocaleType.ZH_TW]: zhTW,
+    [LocaleType.FA_IR]: faIR,
   }
 })
 ```

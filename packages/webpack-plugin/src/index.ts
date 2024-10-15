@@ -1,8 +1,8 @@
-import { Buffer } from 'node:buffer'
 import type { Compiler } from 'webpack'
-import { NormalModule } from 'webpack'
-
+import { Buffer } from 'node:buffer'
 import { exportVirtualLocalesModule, virtualLocalesModuleId } from '@univerjs/plugin-core'
+
+import { NormalModule } from 'webpack'
 
 export interface IUniverPluginOptions {
   css?: boolean
@@ -30,17 +30,16 @@ export class UniverPlugin {
     if (NormalModule) {
       // webpack 5
       compiler.hooks.compilation.tap(this.name, (compilation) => {
-        NormalModule.getCompilationHooks(compilation).readResourceForScheme
-          .for(virtualLocalesModuleId.split(':')[0]).tap(this.name, (path) => {
-            if (path === virtualLocalesModuleId) {
-              if (typeof compiler.options.target === 'string' && compiler.options.target.startsWith('node')) {
-                return ''
-              }
-              return exportVirtualLocalesModule()
-            } else {
-              return path
+        NormalModule.getCompilationHooks(compilation).readResourceForScheme.for(virtualLocalesModuleId.split(':')[0]).tap(this.name, (path) => {
+          if (path === virtualLocalesModuleId) {
+            if (typeof compiler.options.target === 'string' && compiler.options.target.startsWith('node')) {
+              return ''
             }
-          })
+            return exportVirtualLocalesModule()
+          } else {
+            return path
+          }
+        })
       })
     } else {
       // webpack 4

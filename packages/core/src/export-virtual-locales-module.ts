@@ -12,7 +12,7 @@ export const virtualLocalesModuleId = 'univer:locales'
 export function exportVirtualLocalesModule() {
   const scopes = ['@univerjs', '@univerjs-pro']
 
-  const languages = ['en-US', 'ru-RU', 'zh-CN', 'vi-VN', 'zh-TW'].reduce((acc, lang) => {
+  const languages = ['en-US', 'ru-RU', 'zh-CN', 'vi-VN', 'zh-TW', 'fa-IR'].reduce((acc, lang) => {
     acc[lang] = new Set()
     return acc
   }, {})

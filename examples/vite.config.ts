@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
 import { univerPlugin } from '@univerjs/vite-plugin'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
