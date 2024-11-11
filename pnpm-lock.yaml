@@ -33,44 +33,47 @@ importers:
   examples:
     dependencies:
       '@univerjs/core':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@univerjs/docs':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/docs-ui':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/engine-formula':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/engine-numfmt':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0
       '@univerjs/engine-render':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/sheets':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/sheets-formula':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-formula-ui':
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/sheets-numfmt':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/sheets-ui':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/sheets-zen-editor':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       '@univerjs/ui':
-        specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+        specifier: 0.5.0-alpha.0
+        version: 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
     devDependencies:
       '@types/react':
         specifier: ^18.3.11
@@ -86,10 +89,10 @@ importers:
         version: link:../packages/vite-plugin
       '@univerjs/webpack-plugin':
         specifier: file:../packages/webpack-plugin
-        version: file:packages/webpack-plugin(webpack@5.95.0)
+        version: file:packages/webpack-plugin(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       css-loader:
         specifier: ^6.10.0
-        version: 6.11.0(webpack@5.95.0)
+        version: 6.11.0(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       esbuild:
         specifier: ^0.24.0
         version: 0.24.0
@@ -98,13 +101,13 @@ importers:
         version: 1.6.3
       html-webpack-plugin:
         specifier: ^5.6.0
-        version: 5.6.0(webpack@5.95.0)
+        version: 5.6.0(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       style-loader:
         specifier: ^3.3.4
-        version: 3.3.4(webpack@5.95.0)
+        version: 3.3.4(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       ts-loader:
         specifier: ^9.5.1
-        version: 9.5.1(typescript@5.6.2)(webpack@5.95.0)
+        version: 9.5.1(typescript@5.6.2)(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       typescript:
         specifier: ^5.4.5
         version: 5.6.2
@@ -137,7 +140,7 @@ importers:
         version: 5.4.0
       ts-jest:
         specifier: ^29.2.5
-        version: 29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3)
+        version: 29.2.5(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -192,7 +195,7 @@ importers:
         version: link:../core
       '@univerjs/ui':
         specifier: 0.4.0-alpha.1
-        version: 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.3)
+        version: 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.3)
       css-loader:
         specifier: ^7.1.2
         version: 7.1.2(webpack@5.95.0(esbuild@0.24.0))
@@ -210,7 +213,7 @@ importers:
         version: 4.0.0(webpack@5.95.0(esbuild@0.24.0))
       ts-jest:
         specifier: ^29.2.5
-        version: 29.2.5(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3)
+        version: 29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -345,6 +348,10 @@ packages:
     resolution: {integrity: sha512-Rq76wjt7yz9AAc1KnlRKNAi/dMSVWgDRx43FHoJEbcYU6xOWaE2dVPwcdTukJrjxS65GITyfbvEYHvkirZ6uEg==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-plugin-utils@7.25.9':
+    resolution: {integrity: sha512-kSMlyUVdWe25rEsRGviIgOWnoT/nfABVWlqt9N19/dIPWViAOW2s9wznP5tURbs/IDuNk4gPy3YdYRgH3uxhBw==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-simple-access@7.24.7':
     resolution: {integrity: sha512-zBAIvbCMh5Ts+b86r/CjU+4XGYIs+R1j951gxI3KmmxBMhCg4oQMsv6ZXQ64XOm/cvzfU1FmoCyt6+owc5QMYg==}
     engines: {node: '>=6.9.0'}
@@ -464,6 +471,18 @@ packages:
 
   '@babel/plugin-syntax-typescript@7.24.7':
     resolution: {integrity: sha512-c/+fVeJBB0FeKsFvwytYiUD+LBvhHjGSI0g446PRGdSVGZLRNArBUno2PETbAly3tpiNAQR5XaZ+JslxkotsbA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-transform-react-jsx-self@7.25.9':
+    resolution: {integrity: sha512-y8quW6p0WHkEhmErnfe58r7x0A70uKphQm8Sp8cV7tjNQwK56sNVK0M73LK3WuYmsuyrftut4xAkjjgU0twaMg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-transform-react-jsx-source@7.25.9':
+    resolution: {integrity: sha512-+iqjT8xmXhhYv4/uiYd8FNQsraMFZIfxVSqxxVSZP0WbbSAWvBXAul0m/zu+7Vv4O/3WtApy9pmaTMiumEZgfg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -866,6 +885,9 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@flatten-js/interval-tree@1.1.3':
+    resolution: {integrity: sha512-xhFWUBoHJFF77cJO1D6REjdgJEMRf2Y2Z+eKEPav8evGKcLSnj1ud5pLXQSbGuxF3VSvT1rWhMfVpXEKJLTL+A==}
+
   '@floating-ui/core@1.6.7':
     resolution: {integrity: sha512-yDzVT/Lm101nQ5TCVeK65LtdN7Tj4Qpr9RTXJ2vPFLqtLxwOrpoxAHAJI8J3yYWUc40J0BDBheaitK5SJmno2g==}
 
@@ -1211,46 +1233,55 @@ packages:
     resolution: {integrity: sha512-btVgIsCjuYFKUjopPoWiDqmoUXQDiW2A4C3Mtmp5vACm7/GnyuprqIDPNczeyR5W8rTXEbkmrJux7cJmD99D2g==}
     cpu: [arm]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.21.3':
     resolution: {integrity: sha512-zmjbSphplZlau6ZTkxd3+NMtE4UKVy7U4aVFMmHcgO5CUbw17ZP6QCgyxhzGaU/wFFdTfiojjbLG3/0p9HhAqA==}
     cpu: [arm]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.21.3':
     resolution: {integrity: sha512-nSZfcZtAnQPRZmUkUQwZq2OjQciR6tEoJaZVFvLHsj0MF6QhNMg0fQ6mUOsiCUpTqxTx0/O6gX0V/nYc7LrgPw==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.21.3':
     resolution: {integrity: sha512-MnvSPGO8KJXIMGlQDYfvYS3IosFN2rKsvxRpPO2l2cum+Z3exiExLwVU+GExL96pn8IP+GdH8Tz70EpBhO0sIQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.21.3':
     resolution: {integrity: sha512-+W+p/9QNDr2vE2AXU0qIy0qQE75E8RTwTwgqS2G5CRQ11vzq0tbnfBd6brWhS9bCRjAjepJe2fvvkvS3dno+iw==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.21.3':
     resolution: {integrity: sha512-yXH6K6KfqGXaxHrtr+Uoy+JpNlUlI46BKVyonGiaD74ravdnF9BUNC+vV+SIuB96hUMGShhKV693rF9QDfO6nQ==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-s390x-gnu@4.21.3':
     resolution: {integrity: sha512-R8cwY9wcnApN/KDYWTH4gV/ypvy9yZUHlbJvfaiXSB48JO3KpwSpjOGqO4jnGkLDSk1hgjYkTbTt6Q7uvPf8eg==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.21.3':
     resolution: {integrity: sha512-kZPbX/NOPh0vhS5sI+dR8L1bU2cSO9FgxwM8r7wHzGydzfSjLRCFAT87GR5U9scj2rhzN3JPYVC7NoBbl4FZ0g==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.21.3':
     resolution: {integrity: sha512-S0Yq+xA1VEH66uiMNhijsWAafffydd2X5b77eLHfRmfLsRSpbiAWiRHV6DEpz6aOToPsgid7TI9rGd6zB1rhbg==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.21.3':
     resolution: {integrity: sha512-9isNzeL34yquCPyerog+IMCNxKR8XYmGd0tHSV+OVx0TmE0aJOo9uw4fZfUuk2qxobP5sug6vNdZR6u7Mw7Q+Q==}
@@ -1527,20 +1558,32 @@ packages:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
 
+  '@univerjs/core@0.5.0-alpha.0':
+    resolution: {integrity: sha512-gxI0O2DHOkjof9OhjAtJlarOZJJjXnJRXRz3zEFBpTzaECSYTyYMw5TISWe7GcYhSILiKx78tY4L29Hcj4bcEQ==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18.0.0
+      rxjs: '>=7.0.0'
+
   '@univerjs/design@0.4.0-alpha.1':
     resolution: {integrity: sha512-jDSgKDn4w5G7NBs/OV9NwRSk22RfEHq9urePWQNVz610adGnA/u40F5nk+rCw1q3S2Ees1kVQcV1WnoGbwXv8Q==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
 
-  '@univerjs/docs-ui@0.4.0-alpha.1':
-    resolution: {integrity: sha512-2w1xG9Xv+chOF/V8R11gCpCk1DHNTmp/I9nctQAKYO5QKxZbmFyQ17zIVcLCNXIDM5KCnwLTcgcZO7lAYZREPA==}
+  '@univerjs/design@0.5.0-alpha.0':
+    resolution: {integrity: sha512-WphhLE+2wpHKgaUgDSrRPvF4MFKkgUq51dfcN7L4JzfWPi494g0rN6/bbwsKYRN4/Ez+9B+WJ78meuj9zZ3fGQ==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+
+  '@univerjs/docs-ui@0.5.0-alpha.0':
+    resolution: {integrity: sha512-wOzzyKqzcSW068BAbH7+cAqJXyoHb1SN3yeBMQ4ODJ1/4NuWYZvOGKqb5ShYp7EhSPlwYNm6zff49oRuvfx+YA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
 
-  '@univerjs/docs@0.4.0-alpha.1':
-    resolution: {integrity: sha512-q3dWNzHe/P7e8we1K5YkoNpycbgtm3XL6IIqx+18uelNHKOQ4NH5f/J5/9Ly/0ST1rY3d4HmtQEo1djuk0g3Xw==}
+  '@univerjs/docs@0.5.0-alpha.0':
+    resolution: {integrity: sha512-7Brq2znwiJ7CsXT4sUE5Hj2BirTBBJqILl4n0aYo7M5Yn7wQc4HAEsQlepP37m5WN1V9CvOjgf7fopEKsHJARQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
 
@@ -1549,16 +1592,32 @@ packages:
     peerDependencies:
       rxjs: '>=7.0.0'
 
-  '@univerjs/engine-numfmt@0.4.0-alpha.1':
-    resolution: {integrity: sha512-ZKL/FQTWcSKSF6+AQH7DAkstl5gB3dp9AQjHUigYg1rv9Npc9QyOs5o3HW/oYDdLmeVgmZfl3w7YdW4lEKQZ7A==}
+  '@univerjs/engine-formula@0.5.0-alpha.0':
+    resolution: {integrity: sha512-eE3P48vr6+8JRKm6zxdyPEw5MpQWD9SZJaBtNWv/rkZPW2+e9g5p89FK7H6JRZyGRH/XjLskfGJHEvg+GHpXtw==}
+    peerDependencies:
+      rxjs: '>=7.0.0'
+
+  '@univerjs/engine-numfmt@0.5.0-alpha.0':
+    resolution: {integrity: sha512-SeyGFNMWsE01YmvVjL5DsOlOEcjPPUt0Sq9Rvk731anCsVAnAAXCvfMfk3eOXvTcs5SlaAhsHAsAjaTap3yeJg==}
 
   '@univerjs/engine-render@0.4.0-alpha.1':
     resolution: {integrity: sha512-uTyyssaPX/hVTGkvD/XauCXghHE7GxPAQDu+gQ4N+tMw+MHOt+hejjlpY70Yj6Mz4yWPVQNPOlPRnDrelCXniQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
 
+  '@univerjs/engine-render@0.5.0-alpha.0':
+    resolution: {integrity: sha512-spJ6sfLzzlNcL683DrNQLIb8ty1i0TWKXZuPGnb8geoo/8xn0hSKAP2eXgqCI4YVOSNoUY1cP62nRSWAU+Qt4Q==}
+    peerDependencies:
+      rxjs: '>=7.0.0'
+
   '@univerjs/icons@0.1.79':
     resolution: {integrity: sha512-4dyyC75EWw7pBnIO9PwXUeshSEKjAdNUF5dXkyHZ2fmkW5+jNxuSLos4lVhsZ2PHMYhf0PWwffT2Ff6qD8M1kw==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+
+  '@univerjs/icons@0.2.5':
+    resolution: {integrity: sha512-OfkOQoC5JR85T8vnsl/M2MkI5eeC0zUzQPluKT9p3ramJpSDyw0g4TCyzKpNZcCaVTMe90AOefwW3hEOZySFDA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1570,46 +1629,74 @@ packages:
       '@grpc/grpc-js': 1.9.14
       rxjs: '>=7.0.0'
 
+  '@univerjs/protocol@0.1.39-alpha.38':
+    resolution: {integrity: sha512-+Ug7UGAryCWkySw+par8BVUNl7gTGaG6ZLs1CXhnnVeW4T4AvA8uW8X7VLmraaRPuAZdXZgOgW4c0aE9RUvf3Q==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      '@grpc/grpc-js': 1.9.14
+      rxjs: '>=7.0.0'
+
   '@univerjs/rpc@0.4.0-alpha.1':
     resolution: {integrity: sha512-MHi8nBWAlxOWNGpuBX9mRtGEq1/ZU/jCNO7nJL/wKau4LSsNL662vN3fAEyUM+leIs6oXlJrDPg3kSq1oZm/wQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
 
-  '@univerjs/sheets-formula@0.4.0-alpha.1':
-    resolution: {integrity: sha512-tHaVXT30TywA/M/Gq7wf12QkQZ/PJt+YDU3UA4YWZYD40DG7tcYPBr398D1LNQkq6MNX/fMdydFZspXSzOurVQ==}
+  '@univerjs/rpc@0.5.0-alpha.0':
+    resolution: {integrity: sha512-TgRZx4Ryul/RklV02i7iTAJ4PEZjyW7M+tNefFHw/PI+MXxksYlGX2AOyMkScSqz5omcA56VdOIwZ8YRgLpimA==}
     peerDependencies:
       rxjs: '>=7.0.0'
 
-  '@univerjs/sheets-numfmt@0.4.0-alpha.1':
-    resolution: {integrity: sha512-WJAEokdLDAHWuXECkjWP34ErpiKYimN/zvrUer2YUewMoWz79Wwx3rX0tpVG32CEfVMsIiRgQRtmM7pOvdYKsQ==}
+  '@univerjs/sheets-formula-ui@0.5.0-alpha.0':
+    resolution: {integrity: sha512-B9RY24pG7cYcfJEOERZrw8CIbN+IOmgun8BpPZKmH3eYQk72VRS61SB57pzJEy9iE5kFzH0hHMJNPDLd5MjuRg==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
 
-  '@univerjs/sheets-ui@0.4.0-alpha.1':
-    resolution: {integrity: sha512-K/ojdcKHSSaAnJFNFuLJQImTleAbWwmCVHLPinqMeVW05tisu/VbEH9Z1be2vnT7B/c+Z7WdaAp/Wl2ld4y7vg==}
+  '@univerjs/sheets-formula@0.5.0-alpha.0':
+    resolution: {integrity: sha512-uRCm+BwX+OFoX4MhbtXwJEVymwfVW8zM3p4315lf+tdyU4ERfuJCBbKmt8tZxxUAxAzc9gtHszB1KvlPE3SBSA==}
+    peerDependencies:
+      rxjs: '>=7.0.0'
+
+  '@univerjs/sheets-numfmt-ui@0.5.0-alpha.0':
+    resolution: {integrity: sha512-EFQkQ95zrbOtSktanbLEPqQttChG6GoHQ7J2lFzGprH9DxVeG4ZGVlt4G+G2dkodjGlZSWQInVO+nwjobHYTuQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
 
-  '@univerjs/sheets-zen-editor@0.4.0-alpha.1':
-    resolution: {integrity: sha512-FQU18d/8ullvNbYyYrVKt6xu/rwTBV3E+i/dXYTUe0+mIaaYoNXwJNy5ROJfWnYMPP2+rmJj9PAZdNGbA2l3Zw==}
+  '@univerjs/sheets-numfmt@0.5.0-alpha.0':
+    resolution: {integrity: sha512-xQIQb3aW7ljt4q84ynWBLi+MhPcPbjpPpivcnXu8Ck1eI66uPhF55j+NTzacnmczqcD9WB+HipDMbhGH+O0TVg==}
+    peerDependencies:
+      rxjs: '>=7.0.0'
+
+  '@univerjs/sheets-ui@0.5.0-alpha.0':
+    resolution: {integrity: sha512-b2oAm+suuIi2x+mdYpbCEdnOzuY9LkvGj+nQ02I6R48kv7hnxhBWo60BVBxNHZiH72d5RlYKOYuqLVyu+sP8mg==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
 
-  '@univerjs/sheets@0.4.0-alpha.1':
-    resolution: {integrity: sha512-tO3tu+0s+LVvccIIc524JO/g+N0PCp/bdEzvijZLhPsGJtnp8k7AJYvREbprqMK1cxagkpVy4rLu54id6/8j1Q==}
+  '@univerjs/sheets-zen-editor@0.5.0-alpha.0':
+    resolution: {integrity: sha512-2QeAenni/zAE6d3VT/ZvfHaM4Hq3c2E5ABrQSFMhcMFKwqC5oJ3OGgHjsoK+iy1gxRA4vDrKg8vEGzAX0+4WKw==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18.0.0
+      rxjs: '>=7.0.0'
+
+  '@univerjs/sheets@0.5.0-alpha.0':
+    resolution: {integrity: sha512-6mutuoae7mhubdVzgPvPjfiJopXufbB6euvd0OzAd7TogqjtCEUSbgwkzNazvIKYttkP7wdQPRpOZuI2KJ3HAw==}
     peerDependencies:
       rxjs: '>=7.0.0'
 
-  '@univerjs/telemetry@0.4.0-alpha.1':
-    resolution: {integrity: sha512-AizkODUQwbFL06AG+FHkJfx0t6+vnyNxFqj4B5Bq/H+Q/WSCfYsp3SWQfWIohvDwARsgAWgcuh2FKmK++c5uNg==}
-    peerDependencies:
-      '@univerjs/core': 0.4.0-alpha.1
+  '@univerjs/telemetry@0.5.0-alpha.0':
+    resolution: {integrity: sha512-StTIp4cR0Kv77JnIcTHV4YxEqt3JW9Wjj3QyALsGpluws3lSSoKz8wFxYI4ds6s7/ifIdOjpPgjSrqjQB4hELg==}
 
   '@univerjs/ui@0.4.0-alpha.1':
     resolution: {integrity: sha512-qgsmN5gWFgVuFhUV+bJHK2b8Pm5R3velm6jfxg6jai9f/Su2iNkVoZDra7AHNCJmLKQ9tTkpHl2AV53iHuR/GQ==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+      rxjs: '>=7.0.0'
+
+  '@univerjs/ui@0.5.0-alpha.0':
+    resolution: {integrity: sha512-XsxekuI7ZjfSMkyIZszKnZj6534L+S+fmhhl+6/ZfIshhNYTriGkxWf40Rp3mrKAMIMRwawHUMdlIaFa0Odjdw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
@@ -1620,6 +1707,12 @@ packages:
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
+
+  '@vitejs/plugin-react@4.3.3':
+    resolution: {integrity: sha512-NooDe9GpHGqNns1i8XDERg0Vsg5SSYRhRxxyTGogUdkdNt47jal+fbuYi+Yfq6pzRCKXyoPcWisfxE6RIM3GKA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.2.0 || ^5.0.0
 
   '@vitest/eslint-plugin@1.1.7':
     resolution: {integrity: sha512-pTWGW3y6lH2ukCuuffpan6kFxG6nIuoesbhMiQxskyQMRcCN5t9SXsKrNHvEw3p8wcCsgJoRqFZVkOTn6TjclA==}
@@ -2855,6 +2948,9 @@ packages:
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
+  fast-diff@1.3.0:
+    resolution: {integrity: sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==}
+
   fast-equals@4.0.3:
     resolution: {integrity: sha512-G3BSX9cfKttjr+2o1O22tYMLq0DPluZnYtq1rXumE1SpL/F/SLIfHx08WYQoWSIpeMYf8sRbJ8++71+v6Pnxfg==}
 
@@ -3641,6 +3737,9 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
+  kdbush@4.0.2:
+    resolution: {integrity: sha512-WbCVYJ27Sz8zi9Q7Q0xHC+05iwkm3Znipc2XTlrnJbsHMYktW4hPhXUE8Ys1engBrvffoSCqbil1JQAa7clRpA==}
+
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
@@ -4042,6 +4141,11 @@ packages:
 
   nanoid@5.0.7:
     resolution: {integrity: sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
+  nanoid@5.0.8:
+    resolution: {integrity: sha512-TcJPw+9RV9dibz1hHUzlLVy8N4X9TnwirAjrU08Juo6BNKggzVfP2ZJ/3ZUSq15Xl5i85i+Z89XBO90pB2PghQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -4476,6 +4580,12 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
+  rc-menu@9.16.0:
+    resolution: {integrity: sha512-vAL0yqPkmXWk3+YKRkmIR8TYj3RVdEt3ptG2jCJXWNAvQbT0VJJdRyHZ7kG/l1JsZlB+VJq/VcYOo69VR4oD+w==}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+
   rc-motion@2.9.2:
     resolution: {integrity: sha512-fUAhHKLDdkAXIDLH0GYwof3raS58dtNUmzLF2MeiR8o6n4thNpSDQhOqQzWE4WfFZDCi9VEN8n7tiB7czREcyw==}
     peerDependencies:
@@ -4515,6 +4625,26 @@ packages:
       moment:
         optional: true
 
+  rc-picker@4.7.2:
+    resolution: {integrity: sha512-KShWVIdrncIKBZ1rm6E2s4Di9jlpcm38EYIZ472skXqKUz8YKlWQgewG5dT+HUjfon+tLs7dp5kmWUe0bW7Gqw==}
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      date-fns: '>= 2.x'
+      dayjs: '>= 1.x'
+      luxon: '>= 3.x'
+      moment: '>= 2.x'
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+    peerDependenciesMeta:
+      date-fns:
+        optional: true
+      dayjs:
+        optional: true
+      luxon:
+        optional: true
+      moment:
+        optional: true
+
   rc-resize-observer@1.4.0:
     resolution: {integrity: sha512-PnMVyRid9JLxFavTjeDXEXo65HCRqbmLBw9xX9gfC4BZiSzbLXKzW3jPz+J0P71pLbD5tBMTT+mkstV5gD0c9Q==}
     peerDependencies:
@@ -4529,6 +4659,13 @@ packages:
 
   rc-select@14.15.2:
     resolution: {integrity: sha512-oNoXlaFmpqXYcQDzcPVLrEqS2J9c+/+oJuGrlXeVVX/gVgrbHa5YcyiRUXRydFjyuA7GP3elRuLF7Y3Tfwltlw==}
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+
+  rc-select@14.16.3:
+    resolution: {integrity: sha512-51+j6s3fJJJXB7E+B6W1hM4Tjzv1B/Decooz9ilgegDBt3ZAth1b/xMwYCTrT5BbG2e53XACQsyDib2+3Ro1fg==}
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '*'
@@ -4559,6 +4696,13 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
+  rc-virtual-list@3.15.0:
+    resolution: {integrity: sha512-dF2YQztqrU3ijAeWOqscTshCEr7vpimzSqAVjO1AyAmaqcHulaXpnGR0ptK5PXfxTUy48VkJOiglMIxlkYGs0w==}
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+
   rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
@@ -4580,6 +4724,12 @@ packages:
       react: '>= 16.3.0'
       react-dom: '>= 16.3.0'
 
+  react-grid-layout@1.5.0:
+    resolution: {integrity: sha512-WBKX7w/LsTfI99WskSu6nX2nbJAUD7GD6nIXcwYLyPpnslojtmql2oD3I2g5C3AK8hrxIarYT8awhuDIp7iQ5w==}
+    peerDependencies:
+      react: '>= 16.3.0'
+      react-dom: '>= 16.3.0'
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -4591,6 +4741,10 @@ packages:
     peerDependencies:
       react: '>=16.8.3'
       react-dom: '>=16.8.3'
+
+  react-refresh@0.14.2:
+    resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
+    engines: {node: '>=0.10.0'}
 
   react-resizable@3.0.5:
     resolution: {integrity: sha512-vKpeHhI5OZvYn82kXOs1bC8aOXktGU5AmKAgaZS4F5JPburCtbmDPqE7Pzp+1kN4+Wb81LlF33VpGwWwtXem+w==}
@@ -5705,8 +5859,7 @@ snapshots:
 
   '@babel/compat-data@7.24.7': {}
 
-  '@babel/compat-data@7.25.4':
-    optional: true
+  '@babel/compat-data@7.25.4': {}
 
   '@babel/core@7.24.7':
     dependencies:
@@ -5747,7 +5900,6 @@ snapshots:
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@babel/generator@7.24.7':
     dependencies:
@@ -5762,7 +5914,6 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
-    optional: true
 
   '@babel/helper-compilation-targets@7.24.7':
     dependencies:
@@ -5779,7 +5930,6 @@ snapshots:
       browserslist: 4.23.3
       lru-cache: 5.1.1
       semver: 6.3.1
-    optional: true
 
   '@babel/helper-environment-visitor@7.24.7':
     dependencies:
@@ -5821,9 +5971,10 @@ snapshots:
       '@babel/traverse': 7.25.6
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@babel/helper-plugin-utils@7.24.7': {}
+
+  '@babel/helper-plugin-utils@7.25.9': {}
 
   '@babel/helper-simple-access@7.24.7':
     dependencies:
@@ -5844,8 +5995,7 @@ snapshots:
 
   '@babel/helper-validator-option@7.24.7': {}
 
-  '@babel/helper-validator-option@7.24.8':
-    optional: true
+  '@babel/helper-validator-option@7.24.8': {}
 
   '@babel/helpers@7.24.7':
     dependencies:
@@ -5856,7 +6006,6 @@ snapshots:
     dependencies:
       '@babel/template': 7.25.0
       '@babel/types': 7.25.6
-    optional: true
 
   '@babel/highlight@7.24.7':
     dependencies:
@@ -6015,6 +6164,16 @@ snapshots:
       '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
+  '@babel/plugin-transform-react-jsx-self@7.25.9(@babel/core@7.25.2)':
+    dependencies:
+      '@babel/core': 7.25.2
+      '@babel/helper-plugin-utils': 7.25.9
+
+  '@babel/plugin-transform-react-jsx-source@7.25.9(@babel/core@7.25.2)':
+    dependencies:
+      '@babel/core': 7.25.2
+      '@babel/helper-plugin-utils': 7.25.9
+
   '@babel/runtime@7.25.6':
     dependencies:
       regenerator-runtime: 0.14.1
@@ -6034,7 +6193,6 @@ snapshots:
       '@babel/code-frame': 7.24.7
       '@babel/parser': 7.25.6
       '@babel/types': 7.25.6
-    optional: true
 
   '@babel/traverse@7.24.7':
     dependencies:
@@ -6062,7 +6220,6 @@ snapshots:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    optional: true
 
   '@babel/types@7.24.7':
     dependencies:
@@ -6307,6 +6464,8 @@ snapshots:
   '@eslint/plugin-kit@0.2.0':
     dependencies:
       levn: 0.4.1
+
+  '@flatten-js/interval-tree@1.1.3': {}
 
   '@floating-ui/core@1.6.7':
     dependencies:
@@ -7127,6 +7286,23 @@ snapshots:
     transitivePeerDependencies:
       - '@grpc/grpc-js'
 
+  '@univerjs/core@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
+    dependencies:
+      '@univerjs/protocol': 0.1.39-alpha.38(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)
+      '@wendellhu/redi': 0.16.1
+      fast-diff: 1.3.0
+      kdbush: 4.0.2
+      lodash-es: 4.17.21
+      nanoid: 5.0.8
+      numeral: 2.0.6
+      numfmt: 2.5.2
+      ot-json1: 1.0.2
+      rbush: 4.0.1
+      react: 18.3.1
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+
   '@univerjs/design@0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@rc-component/color-picker': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7157,15 +7333,46 @@ snapshots:
       - luxon
       - moment
 
-  '@univerjs/docs-ui@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
+  '@univerjs/design@0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/docs': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
+      '@rc-component/color-picker': 2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@rc-component/trigger': 2.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/react-mentions': 4.4.0
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      clsx: 2.1.1
+      dayjs: 1.11.13
+      rc-dialog: 9.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-dropdown: 4.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-input: 1.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-input-number: 9.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-menu: 9.16.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-picker: 4.7.2(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-segmented: 2.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-select: 14.16.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-textarea: 1.8.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-tooltip: 6.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-virtual-list: 3.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-draggable: 4.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-grid-layout: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-mentions: 4.4.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - date-fns
+      - luxon
+      - moment
+
+  '@univerjs/docs-ui@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/docs': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       clsx: 2.1.1
       react: 18.3.1
       rxjs: 7.8.1
@@ -7175,16 +7382,21 @@ snapshots:
       - luxon
       - moment
       - react-dom
+      - supports-color
       - typescript
+      - vite
 
-  '@univerjs/docs@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
+  '@univerjs/docs@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
     dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       rxjs: 7.8.1
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - react
+      - supports-color
+      - vite
 
   '@univerjs/engine-formula@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
     dependencies:
@@ -7197,7 +7409,21 @@ snapshots:
       - '@grpc/grpc-js'
       - react
 
-  '@univerjs/engine-numfmt@0.4.0-alpha.1': {}
+  '@univerjs/engine-formula@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@flatten-js/interval-tree': 1.1.3
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/rpc': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      decimal.js: 10.4.3
+      numfmt: 2.5.2
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+      - supports-color
+      - vite
+
+  '@univerjs/engine-numfmt@0.5.0-alpha.0': {}
 
   '@univerjs/engine-render@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
     dependencies:
@@ -7212,12 +7438,35 @@ snapshots:
       - '@grpc/grpc-js'
       - react
 
+  '@univerjs/engine-render@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
+    dependencies:
+      '@floating-ui/dom': 1.6.11
+      '@floating-ui/utils': 0.2.8
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      cjk-regex: 3.1.0
+      franc-min: 6.2.0
+      opentype.js: 1.3.4
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+
   '@univerjs/icons@0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  '@univerjs/icons@0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   '@univerjs/protocol@0.1.39-alpha.15(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)':
+    dependencies:
+      '@grpc/grpc-js': 1.11.2
+      rxjs: 7.8.1
+
+  '@univerjs/protocol@0.1.39-alpha.38(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)':
     dependencies:
       '@grpc/grpc-js': 1.11.2
       rxjs: 7.8.1
@@ -7230,135 +7479,177 @@ snapshots:
       - '@grpc/grpc-js'
       - react
 
-  '@univerjs/sheets-formula@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
+  '@univerjs/rpc@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
     dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/docs': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/rpc': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets-numfmt': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/sheets-ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@grpc/grpc-js'
-      - date-fns
-      - luxon
-      - moment
-      - react
-      - react-dom
-      - typescript
-
-  '@univerjs/sheets-numfmt@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
-    dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.4.0-alpha.1
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/sheets': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      react: 18.3.1
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@grpc/grpc-js'
-      - date-fns
-      - luxon
-      - moment
-      - react-dom
-      - typescript
-
-  '@univerjs/sheets-ui@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
-    dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/docs': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/docs-ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/protocol': 0.1.39-alpha.15(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/telemetry': 0.4.0-alpha.1(@univerjs/core@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1))
-      '@univerjs/ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      clsx: 2.1.1
-      react: 18.3.1
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@grpc/grpc-js'
-      - date-fns
-      - luxon
-      - moment
-      - react-dom
-      - typescript
-
-  '@univerjs/sheets-zen-editor@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
-    dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/docs': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/docs-ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/sheets': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      '@univerjs/ui': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)
-      clsx: 2.1.1
-      react: 18.3.1
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@grpc/grpc-js'
-      - date-fns
-      - luxon
-      - moment
-      - react-dom
-      - typescript
-
-  '@univerjs/sheets@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)':
-    dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.4.0-alpha.1
-      '@univerjs/protocol': 0.1.39-alpha.15(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)
-      '@univerjs/rpc': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       rxjs: 7.8.1
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - react
+      - supports-color
+      - vite
 
-  '@univerjs/telemetry@0.4.0-alpha.1(@univerjs/core@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1))':
+  '@univerjs/sheets-formula-ui@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
     dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-
-  '@univerjs/ui@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)':
-    dependencies:
-      '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@univerjs/engine-formula': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.79(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/docs': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/docs-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-numfmt-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
       clsx: 2.1.1
-      localforage: 1.10.0
-      rc-notification: 5.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
       rxjs: 7.8.1
-    optionalDependencies:
-      vue: 3.5.4(typescript@5.6.2)
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - date-fns
       - luxon
       - moment
+      - react-dom
+      - supports-color
       - typescript
+      - vite
 
-  '@univerjs/ui@0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.3)':
+  '@univerjs/sheets-formula@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/docs': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/rpc': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-numfmt': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+      - supports-color
+      - vite
+
+  '@univerjs/sheets-numfmt-ui@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-numfmt': 0.5.0-alpha.0
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-numfmt': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      react: 18.3.1
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - date-fns
+      - luxon
+      - moment
+      - react-dom
+      - supports-color
+      - typescript
+      - vite
+
+  '@univerjs/sheets-numfmt@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-numfmt': 0.5.0-alpha.0
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+      - supports-color
+      - vite
+
+  '@univerjs/sheets-ui@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/docs': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/docs-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-numfmt': 0.5.0-alpha.0
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/protocol': 0.1.39-alpha.38(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/telemetry': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      clsx: 2.1.1
+      react: 18.3.1
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - date-fns
+      - luxon
+      - moment
+      - react-dom
+      - supports-color
+      - typescript
+      - vite
+
+  '@univerjs/sheets-zen-editor@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/docs': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/docs-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/sheets': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/sheets-ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/ui': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      clsx: 2.1.1
+      react: 18.3.1
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - date-fns
+      - luxon
+      - moment
+      - react-dom
+      - supports-color
+      - typescript
+      - vite
+
+  '@univerjs/sheets@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-numfmt': 0.5.0-alpha.0
+      '@univerjs/protocol': 0.1.39-alpha.38(@grpc/grpc-js@1.11.2)(rxjs@7.8.1)
+      '@univerjs/rpc': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+      - supports-color
+      - vite
+
+  '@univerjs/telemetry@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@vitejs/plugin-react': 4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - react
+      - rxjs
+      - supports-color
+      - vite
+
+  '@univerjs/ui@0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.3)':
     dependencies:
       '@univerjs/core': 0.4.0-alpha.1(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.4.0-alpha.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7381,9 +7672,45 @@ snapshots:
       - moment
       - typescript
 
-  '@univerjs/webpack-plugin@file:packages/webpack-plugin(webpack@5.95.0)':
+  '@univerjs/ui@0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rxjs@7.8.1)(typescript@5.6.2)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@univerjs/core': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/design': 0.5.0-alpha.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@univerjs/engine-formula': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))
+      '@univerjs/engine-render': 0.5.0-alpha.0(@grpc/grpc-js@1.11.2)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/icons': 0.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      clsx: 2.1.1
+      localforage: 1.10.0
+      rc-notification: 5.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      rxjs: 7.8.1
+    optionalDependencies:
+      vue: 3.5.4(typescript@5.6.2)
+    transitivePeerDependencies:
+      - '@grpc/grpc-js'
+      - date-fns
+      - luxon
+      - moment
+      - supports-color
+      - typescript
+      - vite
+
+  '@univerjs/webpack-plugin@file:packages/webpack-plugin(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))':
     dependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
+
+  '@vitejs/plugin-react@4.3.3(vite@5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0))':
+    dependencies:
+      '@babel/core': 7.25.2
+      '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.25.2)
+      '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.25.2)
+      '@types/babel__core': 7.20.5
+      react-refresh: 0.14.2
+      vite: 5.4.4(@types/node@22.7.5)(sass@1.78.0)(terser@5.32.0)
+    transitivePeerDependencies:
+      - supports-color
 
   '@vitest/eslint-plugin@1.1.7(@typescript-eslint/utils@8.9.0(eslint@9.12.0)(typescript@5.6.3))(eslint@9.12.0)(typescript@5.6.3)':
     dependencies:
@@ -7533,17 +7860,17 @@ snapshots:
       '@webassemblyjs/ast': 1.12.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4)(webpack@5.95.0)':
+  '@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))':
     dependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0)
 
-  '@webpack-cli/info@2.0.2(webpack-cli@5.1.4)(webpack@5.95.0)':
+  '@webpack-cli/info@2.0.2(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))':
     dependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0)
 
-  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.1.0)(webpack@5.95.0)':
+  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack-dev-server@5.1.0(webpack-cli@5.1.4)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))':
     dependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0)
@@ -8177,7 +8504,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  css-loader@6.11.0(webpack@5.95.0):
+  css-loader@6.11.0(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.45)
       postcss: 8.4.45
@@ -8868,6 +9195,8 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
+  fast-diff@1.3.0: {}
+
   fast-equals@4.0.3: {}
 
   fast-glob@3.3.2:
@@ -9147,7 +9476,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.31.1
 
-  html-webpack-plugin@5.6.0(webpack@5.95.0):
+  html-webpack-plugin@5.6.0(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -9820,6 +10149,8 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
+  kdbush@4.0.2: {}
+
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
@@ -10367,6 +10698,8 @@ snapshots:
 
   nanoid@5.0.7: {}
 
+  nanoid@5.0.8: {}
+
   natural-compare-lite@1.4.0: {}
 
   natural-compare@1.4.0: {}
@@ -10876,6 +11209,17 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  rc-menu@9.16.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.25.6
+      '@rc-component/trigger': 2.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      classnames: 2.5.1
+      rc-motion: 2.9.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-overflow: 1.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   rc-motion@2.9.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.6
@@ -10903,6 +11247,19 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   rc-picker@4.6.15(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.25.6
+      '@rc-component/trigger': 2.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      classnames: 2.5.1
+      rc-overflow: 1.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-resize-observer: 1.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    optionalDependencies:
+      dayjs: 1.11.13
+
+  rc-picker@4.7.2(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.6
       '@rc-component/trigger': 2.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -10945,6 +11302,18 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  rc-select@14.16.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.25.6
+      '@rc-component/trigger': 2.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      classnames: 2.5.1
+      rc-motion: 2.9.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-overflow: 1.3.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-virtual-list: 3.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   rc-textarea@1.8.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.6
@@ -10971,6 +11340,15 @@ snapshots:
       react-is: 18.3.1
 
   rc-virtual-list@3.14.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.25.6
+      classnames: 2.5.1
+      rc-resize-observer: 1.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  rc-virtual-list@3.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.6
       classnames: 2.5.1
@@ -11010,6 +11388,17 @@ snapshots:
       react-resizable: 3.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       resize-observer-polyfill: 1.5.1
 
+  react-grid-layout@1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      clsx: 2.1.1
+      fast-equals: 4.0.3
+      prop-types: 15.8.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-draggable: 4.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-resizable: 3.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      resize-observer-polyfill: 1.5.1
+
   react-is@16.13.1: {}
 
   react-is@18.3.1: {}
@@ -11022,6 +11411,8 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       substyle: 9.4.1(react@18.3.1)
+
+  react-refresh@0.14.2: {}
 
   react-resizable@3.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
@@ -11569,7 +11960,7 @@ snapshots:
 
   stubborn-fs@1.2.5: {}
 
-  style-loader@3.3.4(webpack@5.95.0):
+  style-loader@3.3.4(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
     dependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
 
@@ -11608,6 +11999,17 @@ snapshots:
 
   tapable@2.2.1: {}
 
+  terser-webpack-plugin@5.3.10(esbuild@0.24.0)(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.25
+      jest-worker: 27.5.1
+      schema-utils: 3.3.0
+      serialize-javascript: 6.0.2
+      terser: 5.31.1
+      webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
+    optionalDependencies:
+      esbuild: 0.24.0
+
   terser-webpack-plugin@5.3.10(esbuild@0.24.0)(webpack@5.95.0(esbuild@0.24.0)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
@@ -11616,17 +12018,6 @@ snapshots:
       serialize-javascript: 6.0.2
       terser: 5.31.1
       webpack: 5.95.0(esbuild@0.24.0)
-    optionalDependencies:
-      esbuild: 0.24.0
-
-  terser-webpack-plugin@5.3.10(esbuild@0.24.0)(webpack@5.95.0):
-    dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
-      jest-worker: 27.5.1
-      schema-utils: 3.3.0
-      serialize-javascript: 6.0.2
-      terser: 5.31.1
-      webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
     optionalDependencies:
       esbuild: 0.24.0
 
@@ -11694,7 +12085,7 @@ snapshots:
     dependencies:
       typescript: 5.6.3
 
-  ts-jest@29.2.5(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3):
+  ts-jest@29.2.5(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3):
     dependencies:
       bs-logger: 0.2.6
       ejs: 3.1.10
@@ -11712,9 +12103,8 @@ snapshots:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       babel-jest: 29.7.0(@babel/core@7.24.7)
-      esbuild: 0.24.0
 
-  ts-jest@29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3):
+  ts-jest@29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.7.5))(typescript@5.6.3):
     dependencies:
       bs-logger: 0.2.6
       ejs: 3.1.10
@@ -11732,8 +12122,9 @@ snapshots:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       babel-jest: 29.7.0(@babel/core@7.25.2)
+      esbuild: 0.24.0
 
-  ts-loader@9.5.1(typescript@5.6.2)(webpack@5.95.0):
+  ts-loader@9.5.1(typescript@5.6.2)(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.17.0
@@ -11953,9 +12344,9 @@ snapshots:
   webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0):
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 2.1.1(webpack-cli@5.1.4)(webpack@5.95.0)
-      '@webpack-cli/info': 2.0.2(webpack-cli@5.1.4)(webpack@5.95.0)
-      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.1.0)(webpack@5.95.0)
+      '@webpack-cli/configtest': 2.1.1(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
+      '@webpack-cli/info': 2.0.2(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
+      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4(webpack-dev-server@5.1.0)(webpack@5.95.0))(webpack-dev-server@5.1.0(webpack-cli@5.1.4)(webpack@5.95.0))(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       colorette: 2.0.20
       commander: 10.0.1
       cross-spawn: 7.0.3
@@ -11969,7 +12360,7 @@ snapshots:
     optionalDependencies:
       webpack-dev-server: 5.1.0(webpack-cli@5.1.4)(webpack@5.95.0)
 
-  webpack-dev-middleware@7.4.2(webpack@5.95.0):
+  webpack-dev-middleware@7.4.2(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)):
     dependencies:
       colorette: 2.0.20
       memfs: 4.11.1
@@ -12008,7 +12399,7 @@ snapshots:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.2(webpack@5.95.0)
+      webpack-dev-middleware: 7.4.2(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       ws: 8.18.0
     optionalDependencies:
       webpack: 5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4)
@@ -12079,7 +12470,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(esbuild@0.24.0)(webpack@5.95.0)
+      terser-webpack-plugin: 5.3.10(esbuild@0.24.0)(webpack@5.95.0(esbuild@0.24.0)(webpack-cli@5.1.4))
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     optionalDependencies:
