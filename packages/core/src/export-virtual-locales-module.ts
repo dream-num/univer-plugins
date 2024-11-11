@@ -36,10 +36,13 @@ export function exportVirtualLocalesModule() {
 
             const key = `${generateRandomString(8)}${langVar}`
             // if version is greater than 0.5.0, use lib/es/locale
-            const localePath = fs.existsSync(path.resolve('node_modules', packageName, 'lib/es/locale', `${lang}.js`))
-              ? 'lib/es/locale'
-              : 'lib/locale'
-            importStatement += `import ${key} from '${packageName}/${localePath}/${lang}';\n`
+            const isNewVersion = fs.existsSync(path.resolve('node_modules', packageName, 'lib/es/locale', `${lang}.js`))
+            const localePath = isNewVersion ? 'lib/es/locale' : 'lib/locale'
+            if (isNewVersion) {
+              importStatement += `import ${key} from '${packageName}/${localePath}/${lang}.js';\n`
+            } else {
+              importStatement += `import ${key} from '${packageName}/${localePath}/${lang}';\n`
+            }
             languages[lang].add(key)
           }
         })
