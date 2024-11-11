@@ -36,7 +36,7 @@ export function exportVirtualLocalesModule() {
 
             const key = `${generateRandomString(8)}${langVar}`
             // if version is greater than 0.5.0, use lib/es/locale
-            const localePath = fs.existsSync(path.resolve('node_modules', packageName, 'lib/es/locale', `${lang}.d.ts`))
+            const localePath = fs.existsSync(path.resolve('node_modules', packageName, 'lib/es/locale', `${lang}.js`))
               ? 'lib/es/locale'
               : 'lib/locale'
             importStatement += `import ${key} from '${packageName}/${localePath}/${lang}';\n`
