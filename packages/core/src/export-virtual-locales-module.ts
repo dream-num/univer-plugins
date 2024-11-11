@@ -33,17 +33,17 @@ export function exportVirtualLocalesModule() {
 
           if (fs.existsSync(langPath)) {
             const langVar = `${lang.replace('-', '')}`
-
             const key = `${generateRandomString(8)}${langVar}`
-            // if version is greater than 0.5.0, use lib/es/locale
-            const isNewVersion = fs.existsSync(path.resolve('node_modules', packageName, 'lib/es/locale', `${lang}.js`))
-            const localePath = isNewVersion ? 'lib/es/locale' : 'lib/locale'
-            if (isNewVersion) {
-              importStatement += `import ${key} from '${packageName}/${localePath}/${lang}.js';\n`
-            } else {
-              importStatement += `import ${key} from '${packageName}/${localePath}/${lang}';\n`
+            const langFiles = [
+              // if version is greater than 0.5.0, use lib/es/locale
+              `${packageName}/lib/es/locale/${lang}.js`,
+              `${packageName}/lib/locale/${lang}.json`,
+            ]
+            const langFile = langFiles.find(file => fs.existsSync(path.resolve('node_modules', file)))
+            if (langFile) {
+              importStatement += `import ${key} from '${langFile}';\n`
+              languages[lang].add(key)
             }
-            languages[lang].add(key)
           }
         })
       }
